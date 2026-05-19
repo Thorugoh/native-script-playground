@@ -2,7 +2,7 @@
     <ActionBar title="NativeFlix" />
 
     <StackLayout height="100%">
-        <ListView height="100%" separatorColor="transparent" items="{{ flicks }}">
+        <ListView height="100%" separatorColor="transparent" items="{{ flicks }}" itemTap="{{ onFlickTap }}">
             <ListView.itemTemplate>
                 <GridLayout
                     height="280"
