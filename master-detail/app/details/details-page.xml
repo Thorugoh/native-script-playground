@@ -1,1 +1,30 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" />
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="{{ flick.title }}" />
+
+    <ScrollView>
+        <Image margin="0" stretch="aspectFill" src="{{ flick.image }}"/>
+
+        <StackLayout padding="10 20">
+            <Repeater items="{{ flick.details }}">
+                <Repeater.itemTemplate>
+                    <StackLayout>
+                        <Label
+                            marginTop="15"
+                            fontSize="16"
+                            fontWeight="700"
+                            class="text-primary"
+                            textWrap="true"
+                            text="{{ $value.title }}"
+                        />
+                        <Label 
+                            fontSize="14"
+                            class="text-secondary"
+                            textWrap="true"
+                            text="{{ $value.body }}"
+                        />
+                    </StackLayout>
+                </Repeater.itemTemplate>
+            </Repeater>
+        </StackLayout>
+    </ScrollView>
+</Page>
