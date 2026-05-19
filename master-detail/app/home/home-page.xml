@@ -1,3 +1,12 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <ActionBar title="NativeFlix" />
+
+    <StackLayout height="100%">
+        <ListView height="100%" separatorColor="transparent" items="{{ flicks }}">
+            <ListView.itemTemplate>
+                <Label text="{{ title }}"/>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
+
 </Page>
