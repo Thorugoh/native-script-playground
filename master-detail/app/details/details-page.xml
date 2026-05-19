@@ -2,9 +2,8 @@
     <ActionBar title="{{ flick.title }}" />
 
     <ScrollView>
-        <Image margin="0" stretch="aspectFill" src="{{ flick.image }}"/>
-
         <StackLayout padding="10 20">
+        <Image margin="0" stretch="aspectFill" src="{{ flick.image }}" />
             <Repeater items="{{ flick.details }}">
                 <Repeater.itemTemplate>
                     <StackLayout>
