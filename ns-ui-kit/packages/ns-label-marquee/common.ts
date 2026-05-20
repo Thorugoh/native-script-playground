@@ -1,4 +1,4 @@
-import { Observable } from '@nativescript/core';
+import { Label } from '@nativescript/core';
 
-export class NsLabelMarqueeCommon extends Observable {
+export class LabelMarqueeCommon extends Label {
 }
