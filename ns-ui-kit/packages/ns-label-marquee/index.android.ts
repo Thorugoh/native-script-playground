@@ -1,5 +1,5 @@
-import { NsLabelMarqueeCommon } from './common';
+import { LabelMarqueeCommon } from './common';
 
-export class NsLabelMarquee extends NsLabelMarqueeCommon {
+export class LabelMarquee extends LabelMarqueeCommon {
 
 }
