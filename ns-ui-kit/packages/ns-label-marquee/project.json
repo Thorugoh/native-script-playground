@@ -1,0 +1,73 @@
+{
+  "name": "ns-label-marquee",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "library",
+  "sourceRoot": "packages/ns-label-marquee",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "options": {
+        "outputPath": "dist/packages/ns-label-marquee",
+        "tsConfig": "packages/ns-label-marquee/tsconfig.json",
+        "packageJson": "packages/ns-label-marquee/package.json",
+        "main": "packages/ns-label-marquee/index.d.ts",
+        "assets": [
+          "packages/ns-label-marquee/*.md",
+          "packages/ns-label-marquee/index.d.ts",
+          "LICENSE",
+          {
+            "glob": "**/*",
+            "input": "packages/ns-label-marquee/platforms/",
+            "output": "./platforms/"
+          }
+        ],
+        "dependsOn": [
+          {
+            "target": "build.all",
+            "projects": "dependencies"
+          }
+        ]
+      }
+    },
+    "build.all": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "node tools/scripts/build-finish.ts ns-label-marquee"
+        ],
+        "parallel": false
+      },
+      "outputs": [
+        "{workspaceRoot}/dist/packages/ns-label-marquee"
+      ],
+      "dependsOn": [
+        {
+          "target": "build.all",
+          "projects": "dependencies"
+        },
+        {
+          "target": "build",
+          "projects": "self"
+        }
+      ]
+    },
+    "focus": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": [
+          "nx g @nativescript/plugin-tools:focus-packages ns-label-marquee"
+        ],
+        "parallel": false
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:eslint",
+      "options": {
+        "lintFilePatterns": [
+          "packages/ns-label-marquee/**/*.ts"
+        ]
+      }
+    }
+  },
+  "tags": []
+}

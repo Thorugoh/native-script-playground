@@ -15,6 +15,9 @@
       ],
       "@vhugo/*": [
         "../../packages/*"
+      ],
+      "@vhugo/ns-label-marquee": [
+        "../../packages/ns-label-marquee/index.d.ts"
       ]
     }
   }

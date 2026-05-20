@@ -5,7 +5,7 @@ npm run setup
 npm start
 ```
 
-- @vhugo
+- [@vhugo/ns-label-marquee](packages/ns-label-marquee/README.md)
 
 # How to use?
 

@@ -4,7 +4,8 @@
   "license": "SEE LICENSE IN <your-license-filename>",
   "repository": "<fill-your-repository-here>",
   "dependencies": {
-    "@nativescript/core": "*"
+    "@nativescript/core": "*",
+    "@vhugo/ns-label-marquee": "file:../../packages/ns-label-marquee"
   },
   "devDependencies": {
     "@nativescript/android": "~8.9.0",

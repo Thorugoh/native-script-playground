@@ -43,7 +43,14 @@ module.exports = {
     // packages
     // build output is always in dist/packages
     '@vhugo': {
-      'build-all': {
+      // @vhugo/ns-label-marquee
+			'ns-label-marquee': {
+				build: {
+					script: 'nx run ns-label-marquee:build.all',
+					description: '@vhugo/ns-label-marquee: Build',
+				},
+			},
+			'build-all': {
         script: 'nx run-many --target=build.all --all',
         description: 'Build all packages',
       },
@@ -53,7 +60,11 @@ module.exports = {
       description: '_____________  Focus (VS Code supported)  _____________',
     },
     focus: {
-      reset: {
+      'ns-label-marquee': {
+				script: 'nx run ns-label-marquee:focus',
+				description: 'Focus on @vhugo/ns-label-marquee',
+			},
+			reset: {
         script: 'nx g @nativescript/plugin-tools:focus-packages',
         description: 'Reset Focus',
       },
