@@ -1,0 +1,23 @@
+{
+  "name": "@vhugo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thorugoh/native-script-playground/tree/main/ns-ui-kit.git"
+  },
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "iOS",
+    "Android"
+  ],
+  "author": {
+    "name": "Victor Hugo",
+    "email": "pavictorhugo@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/Thorugoh/native-script-playground/tree/main/ns-ui-kit/issues"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/Thorugoh/native-script-playground/tree/main/ns-ui-kit"
+}
