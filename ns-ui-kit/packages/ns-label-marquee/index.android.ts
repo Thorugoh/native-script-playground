@@ -1,4 +1,4 @@
-import { LabelMarqueeCommon } from './common';
+import { labelizeProperty, LabelMarqueeCommon } from './common';
 
 export class LabelMarquee extends LabelMarqueeCommon {
     // @ts-ignore
@@ -13,4 +13,9 @@ export class LabelMarquee extends LabelMarqueeCommon {
         this.android.setSelected(true);
     }
 
+    [labelizeProperty.setNative](value: boolean) {
+        this.android.setSelected(!value);
+        const ellipsis = value ? android.text.TextUtils.TruncateAt.END : android.text.TextUtils.TruncateAt.MARQUEE;
+        this.android.setEllipsize(ellipsis)
+    }
 }
