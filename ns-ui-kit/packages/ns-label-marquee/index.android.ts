@@ -1,5 +1,16 @@
 import { LabelMarqueeCommon } from './common';
 
 export class LabelMarquee extends LabelMarqueeCommon {
+    // @ts-ignore
+    get android(): android.widget.TextView {
+        return this.nativeView;
+    }
+
+    initNativeView(): void {
+        this.android.setSingleLine(true);
+        this.android.setEllipsize(android.text.TextUtils.TruncateAt.MARQUEE);
+        this.android.setMarqueeRepeatLimit(-1);
+        this.android.setSelected(true);
+    }
 
 }
