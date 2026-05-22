@@ -6,7 +6,10 @@
     <StackLayout class="p-20">
         <ScrollView class="h-full">
           <StackLayout>
-            <lm:LabelMarquee text="Lorem Ipsum; this is a long string of text that will animate because it's longer than the width of the view."></lm:LabelMarquee>
+            <lm:LabelMarquee 
+              text="Lorem Ipsum; this is a long string of text that will animate because it's longer than the width of the view."
+              fadeLength="20"
+            ></lm:LabelMarquee>
           </StackLayout>
         </ScrollView>
     </StackLayout>
