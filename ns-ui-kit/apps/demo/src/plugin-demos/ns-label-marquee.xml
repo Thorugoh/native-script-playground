@@ -1,4 +1,4 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
+<Page xmlns:lm="@vhugo/ns-label-marquee" xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" class="page">
     <Page.actionBar>
         <ActionBar title="ns-label-marquee" icon="" class="action-bar">
         </ActionBar>
@@ -6,8 +6,7 @@
     <StackLayout class="p-20">
         <ScrollView class="h-full">
           <StackLayout>
-            <Button text="Test ns-label-marquee" tap="{{ testIt }}" class="btn btn-primary"/>
-
+            <lm:LabelMarquee text="Lorem Ipsum; this is a long string of text that will animate because it's longer than the width of the view."></lm:LabelMarquee>
           </StackLayout>
         </ScrollView>
     </StackLayout>
