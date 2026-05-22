@@ -1,6 +1,12 @@
 import { fadeLengthProperty, LabelMarqueeCommon } from './common';
 
 export class LabelMarquee extends LabelMarqueeCommon {
+
+    // @ts-ignore
+    get ios(): MarqueeLabel{
+        return this.nativeView;
+    }
+
     createNativeView(): Object {
         return MarqueeLabel.alloc().init();
     }
@@ -12,6 +18,6 @@ export class LabelMarquee extends LabelMarqueeCommon {
     }
 
     [fadeLengthProperty.setNative](value: number) {
-        (<MarqueeLabel>this.nativeView).fadeLength = value;
+        this.ios.fadeLength = value;
     }
 }
