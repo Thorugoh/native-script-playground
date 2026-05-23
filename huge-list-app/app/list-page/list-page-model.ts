@@ -2,22 +2,21 @@ import { Observable, ObservableArray } from "@nativescript/core";
 import { BenchmarkItem } from "~/models/benchmark.model";
 
 export class ListPageModel extends Observable {
-    private _items: BenchmarkItem[];
+    private _items: ObservableArray<BenchmarkItem>;
 
     constructor() {
         super()
+        this._items = new ObservableArray<BenchmarkItem>();
         this.populateItems();
     }
 
     get items(): ObservableArray<BenchmarkItem> {
-        return new ObservableArray(this._items)
+        return this._items;
     }
 
     populateItems() {
-        const largeData = this.items;
-
         for (let i = 0; i < 10000; i++) {
-            largeData.push({
+            this._items.push({
                 id: i,
                 name: `Developer #${i}`,
                 email: `dev.user.${i}@company.com`,
@@ -29,7 +28,7 @@ export class ListPageModel extends Observable {
 
     onItemTap(args: any) {
         const index = args.index;
-        const clickedItem = this._items[index];
+        const clickedItem = this._items.getItem(index);
         console.log(`Tapped item: ${clickedItem.name}`);
     }
 
