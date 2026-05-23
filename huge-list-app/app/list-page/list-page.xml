@@ -1,0 +1,19 @@
+<Page xmlns="https://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigateTo">
+    <ActionBar title="Large List Benchmark" />
+    <GridLayout rows="auto, *">
+        <Button row="0" text="Simulate Heavy JS Work" tap="onHeavyWork" class="btn btn-primary" />
+
+        <ListView row="1" items={{ items }} itemType="onItemTap">
+            <ListView.itemTemplate>
+                <GridLayout columns="auto, *" class="list-group-item">
+                    <Image col="0" src="{{ avatar }}" width="50" height="50" class="thumb" loadMode="async" />
+                    <StackLayout col="1" class="item-details">
+                        <Label text="{{ name }}" class="item-title" />
+                        <Label text="{{ email }}" class="item-subtitle" />
+                        <Label text="{{ timestamp }}" class="item-meta" />
+                    </StackLayout>
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </GridLayout>
+</Page>
