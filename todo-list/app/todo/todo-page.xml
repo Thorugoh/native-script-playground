@@ -1,3 +1,13 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
-    <ActionBar title="My App" icon="" />
+    <ActionBar title="Todo App" icon="" />
+    <StackLayout>
+        <TextField hint="Add an item..." />
+        <ListView items="{{ items }}">
+            <ListView.itemTemplate>
+                <GridLayout padding="16" columns="20, *">
+                    <Label text="{{ title }}" col="1" textWrap="true" marginLeft="8" />
+                </GridLayout>
+            </ListView.itemTemplate>
+        </ListView>
+    </StackLayout>
 </Page>
