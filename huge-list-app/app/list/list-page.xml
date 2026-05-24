@@ -1,9 +1,9 @@
-<Page xmlns="https://schemas.nativescript.org/tns.xsd" navigatingTo="onNavigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <ActionBar title="Large List Benchmark" />
     <GridLayout rows="auto, *">
-        <Button row="0" text="Simulate Heavy JS Work" tap="onHeavyWork" class="btn btn-primary" />
+        <Button row="0" text="Simulate Heavy JS Work" tap="{{ onHeavyWork }}" class="btn btn-primary" />
 
-        <ListView row="1" items="{{ items }}" itemTap="onItemTap">
+        <ListView row="1" items="{{ items }}" itemTap="{{ onItemTap }}">
             <ListView.itemTemplate>
                 <GridLayout columns="auto, *" class="list-group-item">
                     <Image col="0" src="{{ avatar }}" width="50" height="50" class="thumb" loadMode="async" />
@@ -16,4 +16,5 @@
             </ListView.itemTemplate>
         </ListView>
     </GridLayout>
+    
 </Page>

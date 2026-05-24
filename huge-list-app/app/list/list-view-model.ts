@@ -1,22 +1,16 @@
 import { Observable, ObservableArray } from "@nativescript/core";
 import { BenchmarkItem } from "~/models/benchmark.model";
 
-export class ListPageModel extends Observable {
-    private _items: ObservableArray<BenchmarkItem>;
-
+export class ListViewModel extends Observable {
+    public items: Array<BenchmarkItem> = [];
     constructor() {
         super()
-        this._items = new ObservableArray<BenchmarkItem>();
         this.populateItems();
     }
 
-    get items(): ObservableArray<BenchmarkItem> {
-        return this._items;
-    }
-
     populateItems() {
-        for (let i = 0; i < 10000; i++) {
-            this._items.push({
+        for (let i = 0; i < 1000; i++) {
+            this.items.push({
                 id: i,
                 name: `Developer #${i}`,
                 email: `dev.user.${i}@company.com`,
@@ -26,13 +20,13 @@ export class ListPageModel extends Observable {
         }
     }
 
-    onItemTap(args: any) {
+    onItemTap = (args: any) => {
         const index = args.index;
-        const clickedItem = this._items.getItem(index);
-        console.log(`Tapped item: ${clickedItem.name}`);
+        // const clickedItem = this.items.getItem(index);
+        // console.log(`Tapped item: ${clickedItem.name}`);
     }
 
-    onHeavyWork() {
+    onHeavyWork = () => {
         console.log('Running heavy work on UI thread....');
         const start = Date.now();
         while (Date.now() - start < 2000) {
