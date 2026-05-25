@@ -10,7 +10,11 @@ export class TodoViewModel extends Observable {
 
     constructor() {
         super()
-        this._items = new ObservableArray();
+        this._items = new ObservableArray()
+        this.items.push({
+            id: "123123",
+            title: "teste"
+        })
     }
 
     get newItem(){

@@ -1,12 +1,13 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <ActionBar title="Todo App" icon="" />
-    <StackLayout>
+    <StackLayout class="home">
         <TextField text="{{ newItem }}" hint="Add an item..." />
         <Button text="Add" tap="{{ addTodo }}" />
         <ListView items="{{ items }}">
             <ListView.itemTemplate>
-                <GridLayout padding="16" columns="20, *">
-                    <Label text="{{ title }}" col="1" textWrap="true" marginLeft="8" />
+                <GridLayout class="item-container" columns="36, *" rows="auto">
+                    <Label row="0" col="0" text="ok" class="check"/>
+                    <Label row="0" col="1" text="{{ title }}"  textWrap="true" class="title" />
                 </GridLayout>
             </ListView.itemTemplate>
         </ListView>
