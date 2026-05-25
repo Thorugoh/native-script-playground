@@ -1,7 +1,8 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <ActionBar title="Todo App" icon="" />
     <StackLayout>
-        <TextField hint="Add an item..." />
+        <TextField text="{{ newItem }}" hint="Add an item..." />
+        <Button text="Add" tap="{{ addTodo }}" />
         <ListView items="{{ items }}">
             <ListView.itemTemplate>
                 <GridLayout padding="16" columns="20, *">
