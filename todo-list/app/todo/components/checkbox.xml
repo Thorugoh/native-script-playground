@@ -1,6 +1,0 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd"
-  xmlns:custom="./checkbox">
-  <StackLayout>
-    <custom:Checkbox width="16" height="16" />
-  </StackLayout>
-</Page>
