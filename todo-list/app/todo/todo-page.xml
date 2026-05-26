@@ -7,7 +7,7 @@
             <ListView.itemTemplate>
                 <GridLayout class="item-container" columns="40, *" rows="auto">
                     <GridLayout row="0" col="0" class="checkbox" width="32" height="32" backgroundColor="transparent" tap="{{ toggleCheck }}">
-                        <Label text="✓" class="check-icon" visibility="{{ isChecked ? 'visible' : 'collapsed' }}" />
+                        <Label text="&#xE876;" class="check-icon material-icons" visibility="{{ isChecked ? 'visible' : 'collapsed' }}" />
                     </GridLayout>
                     <Label row="0" col="1" text="{{ title }}" textWrap="true" class="{{ isChecked ? 'title done' : 'title' }}" verticalAlignment="center" />
                 </GridLayout>

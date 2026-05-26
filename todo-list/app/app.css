@@ -4,3 +4,8 @@
 Button.-primary {
   font-size: 18;
 }
+
+.material-icons {
+    font-family: "Material Icons", MaterialIcons-Regular;
+    font-size: 24;
+}
