@@ -8,6 +8,11 @@
     color: #fff;
 }
 
+.home .done {
+    text-decoration: line-through;
+    color: #888;
+}
+
 .home .item-container {
     background-color: #363636;
     border-radius: 16px;
