@@ -1,20 +1,14 @@
 import { Observable, ObservableArray } from "@nativescript/core";
+import { ItemViewModel } from "./item-view-model";
 
-interface Item {
-    id: string;
-    title: string;
-}
 export class TodoViewModel extends Observable {
     private _newItem = "";
-    private _items: ObservableArray<Item>;
+    private _items: ObservableArray<ItemViewModel>;
 
     constructor() {
         super()
         this._items = new ObservableArray()
-        this.items.push({
-            id: "123123",
-            title: "teste"
-        })
+        this._items.push(new ItemViewModel({ id: "123123", title: "teste" }))
     }
 
     get newItem(){
@@ -30,6 +24,6 @@ export class TodoViewModel extends Observable {
     }
 
     addTodo() {
-        this.items.push({ title: this.newItem, id: crypto.randomUUID() })
+        this._items.push(new ItemViewModel({ title: this.newItem, id: crypto.randomUUID() }))
     }
 }

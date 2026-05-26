@@ -13,13 +13,16 @@
     border-radius: 16px;
 }
 
-.home .check {
-    border-width: 1px;
+.home .checkbox {
+    border-width: 2;
     border-color: #fff;
-    border-style: solid;
+    border-radius: 16;
+}
 
-    width: 32px;
-    height: 32px;
-    border-radius: 16px;
-
+.home .check-icon {
+    color: #fff;
+    font-size: 20;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: center;
 }

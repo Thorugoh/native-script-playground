@@ -1,13 +1,15 @@
-<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:ui="todo/components" navigatingTo="navigatingTo">
     <ActionBar title="Todo App" icon="" />
     <StackLayout class="home">
         <TextField text="{{ newItem }}" hint="Add an item..." />
         <Button text="Add" tap="{{ addTodo }}" />
         <ListView items="{{ items }}">
             <ListView.itemTemplate>
-                <GridLayout class="item-container" columns="36, *" rows="auto">
-                    <Label row="0" col="0" text="ok" class="check"/>
-                    <Label row="0" col="1" text="{{ title }}"  textWrap="true" class="title" />
+                <GridLayout class="item-container" columns="40, *" rows="auto">
+                    <GridLayout row="0" col="0" class="checkbox" width="32" height="32" backgroundColor="transparent" tap="{{ toggleCheck }}">
+                        <Label text="✓" class="check-icon" visibility="{{ isChecked ? 'visible' : 'collapsed' }}" />
+                    </GridLayout>
+                    <Label row="0" col="1" text="{{ title }}" textWrap="true" class="title" verticalAlignment="center" />
                 </GridLayout>
             </ListView.itemTemplate>
         </ListView>
