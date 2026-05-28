@@ -1,0 +1,71 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      navigatingTo="navigatingTo"
+      actionBarHidden="true"
+      backgroundColor="#121212">
+
+    <GridLayout rows="auto,*">
+
+        <!-- Header -->
+        <StackLayout row="0" class="top-header">
+            <GridLayout columns="*,auto">
+                <StackLayout col="0">
+                    <Label text="{{ 'What\'s up, ' + userName + '!' }}" class="greeting" />
+                    <Label text="{{ todayDate }}" class="greeting-sub" />
+                </StackLayout>
+                <Label col="1" text="{{ userName.charAt(0) }}" class="avatar" />
+            </GridLayout>
+
+            <Label text="TODAY'S TASK" class="section-title" />
+
+            <!-- Category pills -->
+            <ScrollView orientation="horizontal" class="pills-scroll">
+                <StackLayout orientation="horizontal">
+                    <Label text="All"       class="{{ activeCategory === 'All'       ? 'pill pill-active' : 'pill' }}" tap="{{ setActiveCategory }}" />
+                    <Label text="Personal"  class="{{ activeCategory === 'Personal'  ? 'pill pill-active' : 'pill' }}" tap="{{ setActiveCategory }}" />
+                    <Label text="Work"      class="{{ activeCategory === 'Work'      ? 'pill pill-active' : 'pill' }}" tap="{{ setActiveCategory }}" />
+                    <Label text="Grocery"   class="{{ activeCategory === 'Grocery'   ? 'pill pill-active' : 'pill' }}" tap="{{ setActiveCategory }}" />
+                    <Label text="Health"    class="{{ activeCategory === 'Health'    ? 'pill pill-active' : 'pill' }}" tap="{{ setActiveCategory }}" />
+                    <Label text="Education" class="{{ activeCategory === 'Education' ? 'pill pill-active' : 'pill' }}" tap="{{ setActiveCategory }}" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+
+        <!-- Task list + FAB overlay -->
+        <GridLayout row="1" rows="*">
+            <ListView row="0" items="{{ filteredItems }}" separatorColor="transparent">
+                <ListView.itemTemplate>
+                    <GridLayout class="task-card" rows="auto,auto" columns="*,auto,44" margin="0 16 12 16">
+                        <Label row="0" col="0" text="{{ title }}"
+                               class="{{ 'task-title ' + isCheckedClass }}"
+                               textWrap="true" />
+                        <Label row="0" col="1" text="{{ categoryLabel }}" class="category-badge"
+                               visibility="{{ categoryLabel ? 'visible' : 'collapsed' }}" />
+                        <GridLayout row="0" col="2" rowSpan="2"
+                                    class="{{ isChecked ? 'checkbox-checked' : 'checkbox-unchecked' }}"
+                                    tap="{{ toggleCheck }}">
+                            <Label text="&#xE876;" class="material-icons check-icon"
+                                   visibility="{{ isChecked ? 'visible' : 'collapsed' }}" />
+                        </GridLayout>
+                        <StackLayout row="1" col="0" colSpan="2" orientation="horizontal" marginTop="6">
+                            <Label text="{{ dueDateFormatted }}" class="meta-text"
+                                   visibility="{{ dueDateFormatted ? 'visible' : 'collapsed' }}" />
+                            <Label text="  ·  " class="meta-text"
+                                   visibility="{{ dueDateFormatted &amp;&amp; priorityLabel ? 'visible' : 'collapsed' }}" />
+                            <Label text="{{ priorityLabel }}" class="meta-text"
+                                   style="color: {{ priorityColor }}"
+                                   visibility="{{ priorityLabel ? 'visible' : 'collapsed' }}" />
+                        </StackLayout>
+                    </GridLayout>
+                </ListView.itemTemplate>
+            </ListView>
+
+            <!-- FAB -->
+            <Label text="&#xE145;" class="material-icons fab"
+                   tap="{{ onAddTask }}"
+                   horizontalAlignment="right"
+                   verticalAlignment="bottom"
+                   margin="0 20 24 0" />
+        </GridLayout>
+
+    </GridLayout>
+</Page>
