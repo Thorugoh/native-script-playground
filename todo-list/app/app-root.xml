@@ -1,2 +1,2 @@
-<Frame defaultPage="todo/todo-page">
+<Frame id="homeFrame" defaultPage="home/home-page">
 </Frame>
