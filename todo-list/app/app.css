@@ -1,11 +1,23 @@
 ﻿@import '@nativescript/theme/css/core.css';
-@import '@nativescript/theme/css/default.css';
 
-Button.-primary {
-  font-size: 18;
+Page {
+    background-color: #121212;
+    color: #FFFFFF;
+}
+
+Frame {
+    background-color: #121212;
 }
 
 .material-icons {
     font-family: "Material Icons", MaterialIcons-Regular;
     font-size: 24;
+}
+
+.btn-accent {
+    background-color: #8687E7;
+    color: #FFFFFF;
+    border-radius: 16;
+    font-size: 16;
+    height: 52;
 }
