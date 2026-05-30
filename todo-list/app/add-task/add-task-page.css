@@ -1,0 +1,134 @@
+.page-header {
+    padding: 16;
+    background-color: #121212;
+}
+
+.page-title {
+    font-size: 18;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.back-btn {
+    color: #AFAFAF;
+    font-size: 24;
+    vertical-align: center;
+}
+
+.form-content {
+    padding: 16 20 24 20;
+}
+
+.input-field {
+    background-color: #1D1D1D;
+    color: #FFFFFF;
+    border-radius: 8;
+    border-width: 1;
+    border-color: #272727;
+    padding: 14 16;
+    margin-bottom: 12;
+    font-size: 15;
+    placeholder-color: #AFAFAF;
+}
+
+.text-area {
+    border-radius: 8;
+}
+
+.field-row {
+    background-color: #1D1D1D;
+    border-radius: 8;
+    border-color: #272727;
+    border-width: 1;
+    padding: 14 16;
+    margin-bottom: 12;
+}
+
+.field-icon {
+    color: #8687E7;
+    font-size: 20;
+    vertical-align: center;
+}
+
+.field-row-label {
+    color: #AFAFAF;
+    font-size: 15;
+    margin-left: 12;
+    vertical-align: center;
+}
+
+.date-picker {
+    margin-bottom: 12;
+    color: #FFFFFF;
+    background-color: #1D1D1D;
+}
+
+.section-label {
+    font-size: 13;
+    color: #AFAFAF;
+    margin: 8 0 8 0;
+    font-weight: bold;
+    letter-spacing: 1;
+}
+
+.chip {
+    padding: 8 16;
+    margin: 0 8 8 0;
+    border-radius: 8;
+    background-color: #272727;
+    color: #AFAFAF;
+    font-size: 13;
+}
+
+.chip-active {
+    background-color: #8687E7;
+    color: #FFFFFF;
+}
+
+.priority-btn {
+    padding: 12 0;
+    border-radius: 8;
+    background-color: #272727;
+    text-align: center;
+}
+
+.priority-high {
+    border-color: #FF4949;
+    border-width: 2;
+}
+
+.priority-medium {
+    border-color: #FF9800;
+    border-width: 2;
+}
+
+.priority-low {
+    border-color: #4CAF50;
+    border-width: 2;
+}
+
+.priority-active {
+    background-color: #1D1D1D;
+}
+
+.priority-icon {
+    font-size: 20;
+    text-align: center;
+}
+
+.priority-icon-high   { color: #FF4949; }
+.priority-icon-medium { color: #FF9800; }
+.priority-icon-low    { color: #4CAF50; }
+
+.priority-label {
+    font-size: 12;
+    color: #AFAFAF;
+    text-align: center;
+    margin-top: 4;
+}
+
+.create-btn {
+    margin: 16;
+    border-radius: 16;
+}
