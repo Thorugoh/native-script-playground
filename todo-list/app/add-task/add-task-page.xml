@@ -1,0 +1,68 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd"
+      navigatingTo="navigatingTo"
+      actionBarHidden="true"
+      backgroundColor="#121212">
+
+    <GridLayout rows="auto,*,auto">
+
+        <!-- Header bar -->
+        <GridLayout row="0" columns="40,*,40" class="page-header">
+            <Label col="0" text="&#xE5C4;" class="material-icons back-btn" tap="{{ goBack }}" />
+            <Label col="1" text="Add Task" class="page-title" />
+        </GridLayout>
+
+        <!-- Scrollable form -->
+        <ScrollView row="1">
+            <StackLayout class="form-content">
+
+                <TextField hint="Task Title" text="{{ title }}" class="input-field"
+                           returnKeyType="next" autocorrect="false" />
+
+                <TextView hint="Description" text="{{ description }}" class="input-field text-area"
+                          height="90" />
+
+                <!-- Date row -->
+                <GridLayout columns="auto,*" class="field-row" tap="{{ toggleDatePicker }}">
+                    <Label col="0" text="&#xE916;" class="material-icons field-icon" />
+                    <Label col="1" text="{{ dueDateFormatted }}" class="field-row-label" />
+                </GridLayout>
+
+                <DatePicker date="{{ selectedDate }}"
+                            visibility="{{ showDatePicker ? 'visible' : 'collapsed' }}"
+                            class="date-picker" />
+
+                <!-- Category chips -->
+                <Label text="Category" class="section-label" />
+                <WrapLayout orientation="horizontal">
+                    <Label text="Personal"  class="{{ selectedCategory === 'Personal'  ? 'chip chip-active' : 'chip' }}" tap="{{ selectCategory }}" />
+                    <Label text="Work"      class="{{ selectedCategory === 'Work'      ? 'chip chip-active' : 'chip' }}" tap="{{ selectCategory }}" />
+                    <Label text="Grocery"   class="{{ selectedCategory === 'Grocery'   ? 'chip chip-active' : 'chip' }}" tap="{{ selectCategory }}" />
+                    <Label text="Health"    class="{{ selectedCategory === 'Health'    ? 'chip chip-active' : 'chip' }}" tap="{{ selectCategory }}" />
+                    <Label text="Education" class="{{ selectedCategory === 'Education' ? 'chip chip-active' : 'chip' }}" tap="{{ selectCategory }}" />
+                </WrapLayout>
+
+                <!-- Priority -->
+                <Label text="Priority" class="section-label" />
+                <GridLayout columns="*,*,*">
+                    <StackLayout col="0" class="{{ priorityHighClass }}" tap="{{ setPriorityHigh }}">
+                        <Label text="&#xE153;" class="material-icons priority-icon priority-icon-high" />
+                        <Label text="High" class="priority-label" />
+                    </StackLayout>
+                    <StackLayout col="1" class="{{ priorityMediumClass }}" tap="{{ setPriorityMedium }}" margin="0 6">
+                        <Label text="&#xE153;" class="material-icons priority-icon priority-icon-medium" />
+                        <Label text="Medium" class="priority-label" />
+                    </StackLayout>
+                    <StackLayout col="2" class="{{ priorityLowClass }}" tap="{{ setPriorityLow }}">
+                        <Label text="&#xE153;" class="material-icons priority-icon priority-icon-low" />
+                        <Label text="Low" class="priority-label" />
+                    </StackLayout>
+                </GridLayout>
+
+            </StackLayout>
+        </ScrollView>
+
+        <!-- Create button -->
+        <Button row="2" text="Create Task" class="btn-accent create-btn" tap="{{ createTask }}" />
+
+    </GridLayout>
+</Page>
