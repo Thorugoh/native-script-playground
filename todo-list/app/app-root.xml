@@ -1,2 +1,30 @@
-<Frame id="homeFrame" defaultPage="home/home-page">
-</Frame>
+<TabView xmlns="http://schemas.nativescript.org/tns.xsd"
+         id="mainTabView"
+         androidTabsPosition="bottom"
+         androidSwipeEnabled="false"
+         tabBackgroundColor="#1D1D1D"
+         selectedTabTextColor="#8687E7"
+         tabTextColor="#AFAFAF"
+         selectedIndexChanged="onTabChanged">
+
+    <TabViewItem title="Home" iconSource="font://&#xE88A;" iconFontFamily="MaterialIcons-Regular">
+        <Frame id="homeFrame" defaultPage="home/home-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Calendar" iconSource="font://&#xE916;" iconFontFamily="MaterialIcons-Regular">
+        <Frame defaultPage="home/home-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Add" iconSource="font://&#xE145;" iconFontFamily="MaterialIcons-Regular">
+        <Frame />
+    </TabViewItem>
+
+    <TabViewItem title="Search" iconSource="font://&#xE8B6;" iconFontFamily="MaterialIcons-Regular">
+        <Frame defaultPage="home/home-page" />
+    </TabViewItem>
+
+    <TabViewItem title="Profile" iconSource="font://&#xE7FD;" iconFontFamily="MaterialIcons-Regular">
+        <Frame defaultPage="home/home-page" />
+    </TabViewItem>
+
+</TabView>
