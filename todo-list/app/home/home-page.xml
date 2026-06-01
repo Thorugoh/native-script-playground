@@ -59,6 +59,13 @@
                 </ListView.itemTemplate>
             </ListView>
 
+            <!-- Empty state -->
+            <StackLayout row="0" visibility="{{ isEmpty ? 'visible' : 'collapsed' }}"
+                         horizontalAlignment="center" verticalAlignment="center">
+                <Label text="&#xE5CA;" class="material-icons empty-icon" />
+                <Label text="No tasks here" class="empty-label" />
+            </StackLayout>
+
             <!-- FAB -->
             <Label text="&#xE145;" class="material-icons fab"
                    tap="{{ onAddTask }}"

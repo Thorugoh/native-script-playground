@@ -33,6 +33,10 @@ export class HomeViewModel extends Observable {
         return this._filteredItems;
     }
 
+    get isEmpty(): boolean {
+        return this._filteredItems.length === 0;
+    }
+
     setActiveCategory(args: any) {
         const cat = args?.object?.text ?? args;
         this._activeCategory = cat;
@@ -63,5 +67,6 @@ export class HomeViewModel extends Observable {
     private _refreshFiltered() {
         this._filteredItems = this._buildFiltered();
         this.notifyPropertyChange('filteredItems', this._filteredItems);
+        this.notifyPropertyChange('isEmpty', this.isEmpty);
     }
 }

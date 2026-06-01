@@ -112,6 +112,19 @@
     vertical-align: center;
 }
 
+.empty-icon {
+    font-size: 48;
+    color: #272727;
+    text-align: center;
+}
+
+.empty-label {
+    font-size: 15;
+    color: #AFAFAF;
+    text-align: center;
+    margin-top: 8;
+}
+
 .fab {
     background-color: #8687E7;
     border-radius: 28;
