@@ -32,7 +32,7 @@
 
         <!-- Task list + FAB overlay -->
         <GridLayout row="1" rows="*">
-            <ListView row="0" items="{{ filteredItems }}" separatorColor="transparent">
+            <ListView row="0" items="{{ filteredItems }}" separatorColor="transparent" paddingTop="12" paddingBottom="80">
                 <ListView.itemTemplate>
                     <GridLayout class="task-card" rows="auto,auto" columns="*,auto,44" margin="0 16 12 16">
                         <Label row="0" col="0" text="{{ title }}"
