@@ -33,6 +33,20 @@ class TaskStore {
             priority: 'low',
             dueDate: (() => { const d = new Date(); d.setDate(d.getDate() + 1); return d; })(),
         }));
+        this.items.push(new ItemViewModel({
+            id: crypto.randomUUID(),
+            title: 'Study TypeScript generics',
+            category: 'Education',
+            priority: 'medium',
+            dueDate: new Date(),
+        }));
+        this.items.push(new ItemViewModel({
+            id: crypto.randomUUID(),
+            title: 'Team standup meeting',
+            category: 'Work',
+            priority: 'high',
+            dueDate: new Date(),
+        }));
     }
 }
 
