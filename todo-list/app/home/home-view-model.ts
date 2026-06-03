@@ -52,6 +52,13 @@ export class HomeViewModel extends Observable {
         });
     }
 
+    deleteTask(args: any) {
+        const item = args?.object?.bindingContext as ItemViewModel;
+        if (!item) return;
+        const idx = taskStore.items.indexOf(item);
+        if (idx >= 0) taskStore.items.splice(idx, 1);
+    }
+
     private _buildFiltered(): ObservableArray<ItemViewModel> {
         const arr = new ObservableArray<ItemViewModel>();
         const all = taskStore.items;
