@@ -34,19 +34,21 @@
         <GridLayout row="1" rows="*">
             <ListView row="0" items="{{ filteredItems }}" separatorColor="transparent" paddingTop="12" paddingBottom="80">
                 <ListView.itemTemplate>
-                    <GridLayout class="task-card" rows="auto,auto" columns="*,auto,36" margin="0 16 12 16">
+                    <GridLayout class="task-card" rows="auto,auto" columns="*,auto,32,36" margin="0 16 12 16">
                         <Label row="0" col="0" text="{{ title }}"
                                class="{{ 'task-title ' + isCheckedClass }}"
                                textWrap="true" />
                         <Label row="0" col="1" text="{{ categoryLabel }}" class="category-badge"
                                visibility="{{ categoryLabel ? 'visible' : 'collapsed' }}" />
-                        <GridLayout row="0" col="2" rowSpan="2"
+                        <Label row="0" col="2" text="&#xE872;" class="material-icons delete-icon"
+                               tap="{{ $parents['Page'].bindingContext.deleteTask }}" />
+                        <GridLayout row="0" col="3" rowSpan="2"
                                     class="{{ isChecked ? 'checkbox-checked' : 'checkbox-unchecked' }}"
                                     tap="{{ toggleCheck }}">
                             <Label text="&#xE876;" class="material-icons check-icon"
                                    visibility="{{ isChecked ? 'visible' : 'collapsed' }}" />
                         </GridLayout>
-                        <StackLayout row="1" col="0" colSpan="2" orientation="horizontal" marginTop="6">
+                        <StackLayout row="1" col="0" colSpan="3" orientation="horizontal" marginTop="6">
                             <Label text="{{ dueDateFormatted }}" class="meta-text"
                                    visibility="{{ dueDateFormatted ? 'visible' : 'collapsed' }}" />
                             <Label text="  ·  " class="meta-text"

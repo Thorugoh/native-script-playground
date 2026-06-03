@@ -80,6 +80,13 @@
     vertical-align: center;
 }
 
+.delete-icon {
+    font-size: 18;
+    color: #FF4949;
+    text-align: center;
+    vertical-align: center;
+}
+
 .meta-text {
     font-size: 12;
     color: #AFAFAF;
