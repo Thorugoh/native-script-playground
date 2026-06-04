@@ -11,6 +11,7 @@ export class AddTaskViewModel extends Observable {
     private _selectedPriority: Priority | undefined;
     private _selectedDate: Date | undefined;
     private _showDatePicker = false;
+    private _titleError = '';
 
     readonly categories = CATEGORIES;
 
@@ -18,7 +19,19 @@ export class AddTaskViewModel extends Observable {
     set title(v: string) {
         this._title = v;
         this.notifyPropertyChange('title', v);
+        if (v.trim()) {
+            this.titleError = '';
+        }
     }
+
+    get titleError() { return this._titleError; }
+    set titleError(v: string) {
+        this._titleError = v;
+        this.notifyPropertyChange('titleError', v);
+        this.notifyPropertyChange('hasTitleError', this.hasTitleError);
+    }
+
+    get hasTitleError(): boolean { return this._titleError.length > 0; }
 
     get description() { return this._description; }
     set description(v: string) {
@@ -96,7 +109,10 @@ export class AddTaskViewModel extends Observable {
     }
 
     createTask() {
-        if (!this._title.trim()) return;
+        if (!this._title.trim()) {
+            this.titleError = 'Title is required';
+            return;
+        }
         taskStore.items.push(new ItemViewModel({
             id: crypto.randomUUID(),
             title: this._title.trim(),

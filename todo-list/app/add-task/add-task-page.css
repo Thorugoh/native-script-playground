@@ -32,6 +32,12 @@
     placeholder-color: #AFAFAF;
 }
 
+.error-label {
+    font-size: 12;
+    color: #FF4949;
+    margin: -8 0 8 4;
+}
+
 .text-area {
     border-radius: 8;
 }

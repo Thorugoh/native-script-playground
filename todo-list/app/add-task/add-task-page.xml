@@ -17,6 +17,8 @@
 
                 <TextField hint="Task Title" text="{{ title }}" class="input-field"
                            returnKeyType="next" autocorrect="false" />
+                <Label text="{{ titleError }}" class="error-label"
+                       visibility="{{ hasTitleError ? 'visible' : 'collapsed' }}" />
 
                 <TextView hint="Description" text="{{ description }}" class="input-field text-area"
                           height="90" />
