@@ -577,3 +577,13 @@ INFO: Unsupported notification method: $/setTrace
 2026.06.11 22:04:50 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/Main.java. Using fallback presentation compiler.[0m
 2026.06.11 22:04:50 INFO  empty definition using pc, found symbol in pc: java/io/PrintStream#println(+8). (full report at: "/Users/vhugo/repos/native-script-playground/my-own-native-script/.metals/.reports/metals-full/2026-06-11/r_empty-definition_22-04-50-744.md")[0m
 2026.06.11 22:04:50 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/Main.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:11 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/Main.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:11 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/Main.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:14 WARN  no build target for: /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java[0m
+2026.06.11 22:05:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
+2026.06.11 22:05:16 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
+2026.06.11 22:09:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
+2026.06.11 22:09:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/Main.java. Using fallback presentation compiler.[0m
