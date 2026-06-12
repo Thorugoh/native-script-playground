@@ -587,3 +587,13 @@ INFO: Unsupported notification method: $/setTrace
 2026.06.11 22:05:16 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
 2026.06.11 22:09:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/MathUtils.java. Using fallback presentation compiler.[0m
 2026.06.11 22:09:14 INFO  no build target found for /Users/vhugo/repos/native-script-playground/my-own-native-script/java-app/src/com/poc/Main.java. Using fallback presentation compiler.[0m
+Jun 11, 2026 11:02:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 11, 2026 11:02:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 11, 2026 11:09:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 11, 2026 11:27:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 11, 2026 11:27:56 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

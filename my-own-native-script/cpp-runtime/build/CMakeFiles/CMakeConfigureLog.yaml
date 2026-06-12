@@ -1,0 +1,3182 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/uname"
+      - "/Users/vhugo/.pyenv/shims/uname"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/uname"
+      - "/opt/homebrew/bin/uname"
+      - "/opt/homebrew/sbin/uname"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/uname"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/uname"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/uname"
+      - "/usr/local/bin/uname"
+      - "/System/Cryptexes/App/usr/bin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt"
+    message: |
+      The system is: Darwin - 25.2.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/gmake"
+      - "/Users/vhugo/.pyenv/shims/gmake"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/gmake"
+      - "/opt/homebrew/bin/gmake"
+      - "/opt/homebrew/sbin/gmake"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/gmake"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/gmake"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/gmake"
+      - "/usr/local/bin/gmake"
+      - "/System/Cryptexes/App/usr/bin/gmake"
+      - "/usr/bin/gmake"
+      - "/bin/gmake"
+      - "/usr/sbin/gmake"
+      - "/sbin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/gmake"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/gmake"
+      - "/opt/pmk/env/global/bin/gmake"
+      - "/Library/Apple/usr/bin/gmake"
+      - "/usr/local/go/bin/gmake"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/gmake"
+      - "/Users/vhugo/.cargo/bin/gmake"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/gmake"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/gmake"
+      - "/Users/vhugo/Library/Android/sdk/tools/gmake"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/gmake"
+      - "/Users/vhugo/.maestro/bin/gmake"
+      - "/Users/vhugo/.local/bin/gmake"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/make"
+      - "/Users/vhugo/.pyenv/shims/make"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/make"
+      - "/opt/homebrew/bin/make"
+      - "/opt/homebrew/sbin/make"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/make"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/make"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/make"
+      - "/usr/local/bin/make"
+      - "/System/Cryptexes/App/usr/bin/make"
+    found: "/usr/bin/make"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:73 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:64 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "C compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "cc"
+      - "gcc"
+      - "cl"
+      - "bcc"
+      - "xlc"
+      - "icx"
+      - "clang"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/cc"
+      - "/Users/vhugo/.pyenv/shims/cc"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/cc"
+      - "/opt/homebrew/bin/cc"
+      - "/opt/homebrew/sbin/cc"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/cc"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/cc"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/cc"
+      - "/usr/local/bin/cc"
+      - "/System/Cryptexes/App/usr/bin/cc"
+    found: "/usr/bin/cc"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is AppleClang, found in:
+        /Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/4.3.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:296 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting C compiler apple sysroot: "/usr/bin/cc" "-E" "apple-sdk.c"
+        # 1 "apple-sdk.c"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 482 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.c" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.c" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    found: "/usr/bin/ar"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    found: "/usr/bin/ranlib"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    found: "/usr/bin/strip"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    found: "/usr/bin/ld"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    found: "/usr/bin/nm"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    found: "/usr/bin/objdump"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/usr/bin/objcopy"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/objcopy"
+      - "/Users/vhugo/.pyenv/shims/objcopy"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/objcopy"
+      - "/opt/homebrew/bin/objcopy"
+      - "/opt/homebrew/sbin/objcopy"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/objcopy"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/objcopy"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/objcopy"
+      - "/usr/local/bin/objcopy"
+      - "/System/Cryptexes/App/usr/bin/objcopy"
+      - "/bin/objcopy"
+      - "/usr/sbin/objcopy"
+      - "/sbin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/objcopy"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/objcopy"
+      - "/opt/pmk/env/global/bin/objcopy"
+      - "/Library/Apple/usr/bin/objcopy"
+      - "/usr/local/go/bin/objcopy"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/objcopy"
+      - "/Users/vhugo/.cargo/bin/objcopy"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/objcopy"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/objcopy"
+      - "/Users/vhugo/Library/Android/sdk/tools/objcopy"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/objcopy"
+      - "/Users/vhugo/.maestro/bin/objcopy"
+      - "/Users/vhugo/.local/bin/objcopy"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/usr/bin/readelf"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/readelf"
+      - "/Users/vhugo/.pyenv/shims/readelf"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/readelf"
+      - "/opt/homebrew/bin/readelf"
+      - "/opt/homebrew/sbin/readelf"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/readelf"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/readelf"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/readelf"
+      - "/usr/local/bin/readelf"
+      - "/System/Cryptexes/App/usr/bin/readelf"
+      - "/bin/readelf"
+      - "/usr/sbin/readelf"
+      - "/sbin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/readelf"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/readelf"
+      - "/opt/pmk/env/global/bin/readelf"
+      - "/Library/Apple/usr/bin/readelf"
+      - "/usr/local/go/bin/readelf"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/readelf"
+      - "/Users/vhugo/.cargo/bin/readelf"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/readelf"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/readelf"
+      - "/Users/vhugo/Library/Android/sdk/tools/readelf"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/readelf"
+      - "/Users/vhugo/.maestro/bin/readelf"
+      - "/Users/vhugo/.local/bin/readelf"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/usr/bin/dlltool"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/dlltool"
+      - "/Users/vhugo/.pyenv/shims/dlltool"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/dlltool"
+      - "/opt/homebrew/bin/dlltool"
+      - "/opt/homebrew/sbin/dlltool"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/dlltool"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/dlltool"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/System/Cryptexes/App/usr/bin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/sbin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/dlltool"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/dlltool"
+      - "/opt/pmk/env/global/bin/dlltool"
+      - "/Library/Apple/usr/bin/dlltool"
+      - "/usr/local/go/bin/dlltool"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/dlltool"
+      - "/Users/vhugo/.cargo/bin/dlltool"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/dlltool"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/dlltool"
+      - "/Users/vhugo/Library/Android/sdk/tools/dlltool"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/dlltool"
+      - "/Users/vhugo/.maestro/bin/dlltool"
+      - "/Users/vhugo/.local/bin/dlltool"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/usr/bin/addr2line"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/addr2line"
+      - "/Users/vhugo/.pyenv/shims/addr2line"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/addr2line"
+      - "/opt/homebrew/bin/addr2line"
+      - "/opt/homebrew/sbin/addr2line"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/addr2line"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/addr2line"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/addr2line"
+      - "/usr/local/bin/addr2line"
+      - "/System/Cryptexes/App/usr/bin/addr2line"
+      - "/bin/addr2line"
+      - "/usr/sbin/addr2line"
+      - "/sbin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/addr2line"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/addr2line"
+      - "/opt/pmk/env/global/bin/addr2line"
+      - "/Library/Apple/usr/bin/addr2line"
+      - "/usr/local/go/bin/addr2line"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/addr2line"
+      - "/Users/vhugo/.cargo/bin/addr2line"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/addr2line"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/addr2line"
+      - "/Users/vhugo/Library/Android/sdk/tools/addr2line"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/addr2line"
+      - "/Users/vhugo/.maestro/bin/addr2line"
+      - "/Users/vhugo/.local/bin/addr2line"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/usr/bin/tapi"
+      - "/opt/homebrew/opt/tcl-tk@8/bin/tapi"
+      - "/Users/vhugo/.pyenv/shims/tapi"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/tapi"
+      - "/opt/homebrew/bin/tapi"
+      - "/opt/homebrew/sbin/tapi"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/tapi"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/tapi"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/tapi"
+      - "/usr/local/bin/tapi"
+      - "/System/Cryptexes/App/usr/bin/tapi"
+      - "/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/sbin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/tapi"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/tapi"
+      - "/opt/pmk/env/global/bin/tapi"
+      - "/Library/Apple/usr/bin/tapi"
+      - "/usr/local/go/bin/tapi"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/tapi"
+      - "/Users/vhugo/.cargo/bin/tapi"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/tapi"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/tapi"
+      - "/Users/vhugo/Library/Android/sdk/tools/tapi"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/tapi"
+      - "/Users/vhugo/.maestro/bin/tapi"
+      - "/Users/vhugo/.local/bin/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icpx"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "/usr/bin/"
+    found: "/usr/bin/c++"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:468 (find_file)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:506 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/opt/homebrew/share/cmake/Modules/"
+    found: "/opt/homebrew/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is AppleClang, found in:
+        /Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/4.3.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake:296 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt"
+    message: |
+      Detecting CXX compiler apple sysroot: "/usr/bin/c++" "-E" "apple-sdk.cpp"
+        # 1 "apple-sdk.cpp"
+        # 1 "<built-in>" 1
+        # 1 "<built-in>" 3
+        # 531 "<built-in>" 3
+        # 1 "<command line>" 1
+        # 1 "<built-in>" 2
+        # 1 "apple-sdk.cpp" 2
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 1 3 4
+        # 89 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 90 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/TargetConditionals.h" 1 3 4
+        # 91 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 207 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 1 3 4
+        # 196 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 197 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 33 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityVersions.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 2 3 4
+        # 198 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 1 3 4
+        # 34 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 3 4
+        # 1 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternal.h" 1 3 4
+        # 35 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityInternalLegacy.h" 2 3 4
+        # 199 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/Availability.h" 2 3 4
+        # 208 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/AvailabilityMacros.h" 2 3 4
+        # 2 "apple-sdk.cpp" 2
+        
+        
+      Found apple sysroot: /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake:66 (find_program)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake:32 (include)"
+      - "CMakeLists.txt"
+    mode: "program"
+    variable: "CMAKE_INSTALL_NAME_TOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "install_name_tool"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/install_name_tool"
+      - "/Users/vhugo/.pyenv/shims/install_name_tool"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/install_name_tool"
+      - "/opt/homebrew/bin/install_name_tool"
+      - "/opt/homebrew/sbin/install_name_tool"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/install_name_tool"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/install_name_tool"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/install_name_tool"
+      - "/usr/local/bin/install_name_tool"
+      - "/System/Cryptexes/App/usr/bin/install_name_tool"
+    found: "/usr/bin/install_name_tool"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds"
+      binary: "/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/tcl-tk@8/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bfd1/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5bfd1.dir/build.make CMakeFiles/cmTC_5bfd1.dir/build
+        Building C object CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.2.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking C executable cmTC_5bfd1
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bfd1.dir/link.txt --verbose=1
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_5bfd1 -L/opt/homebrew/opt/tcl-tk@8/lib -L/usr/local/lib -v CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1267
+        BUILD 18:30:29 Apr 22 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+        Library search paths:
+        	/opt/homebrew/opt/tcl-tk@8/lib
+        	/usr/local/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/cc  -arch arm64 -L/opt/homebrew/opt/tcl-tk@8/lib -v -Wl,-v CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -o cmTC_5bfd1
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5bfd1/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5bfd1.dir/build.make CMakeFiles/cmTC_5bfd1.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-oi0sds -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -x c /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.2.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_5bfd1]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bfd1.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_5bfd1 -L/opt/homebrew/opt/tcl-tk@8/lib -L/usr/local/lib -v CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5bfd1] ==> ignore
+          arg [-L/opt/homebrew/opt/tcl-tk@8/lib] ==> dir [/opt/homebrew/opt/tcl-tk@8/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5bfd1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'C': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/opt/homebrew/opt/tcl-tk@8/lib;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/opt/tcl-tk@8/lib] ==> [/opt/homebrew/opt/tcl-tk@8/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/opt/homebrew/opt/tcl-tk@8/lib] ==> [/opt/homebrew/opt/tcl-tk@8/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/opt/tcl-tk@8/lib;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the C compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1267
+      BUILD 18:30:29 Apr 22 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH"
+      binary: "/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/tcl-tk@8/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d2dd/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2d2dd.dir/build.make CMakeFiles/cmTC_2d2dd.dir/build
+        Building CXX object CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -arch arm64   -v -Wl,-v -MD -MT CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+        clang++: warning: -Wl,-v: 'linker' input unused [-Wunused-command-line-argument]
+        ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.2.0
+        ignoring nonexistent directory "/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include
+         /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)
+         /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)
+        End of search list.
+        Linking CXX executable cmTC_2d2dd
+        /opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d2dd.dir/link.txt --verbose=1
+        Apple clang version 21.0.0 (clang-2100.1.1.101)
+        Target: arm64-apple-darwin25.2.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2d2dd -L/opt/homebrew/opt/tcl-tk@8/lib -L/usr/local/lib -v CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a
+        @(#)PROGRAM:ld PROJECT:ld-1267
+        BUILD 18:30:29 Apr 22 2026
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+        TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+        Library search paths:
+        	/opt/homebrew/opt/tcl-tk@8/lib
+        	/usr/local/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks
+        /usr/bin/c++  -arch arm64 -L/opt/homebrew/opt/tcl-tk@8/lib -v -Wl,-v CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2d2dd
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+          add: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        end of search list found
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        collapse include dir [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        implicit include dirs: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d2dd/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2d2dd.dir/build.make CMakeFiles/cmTC_2d2dd.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -arch arm64   -v -Wl -v -MD -MT CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -c /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [clang++: warning: -Wl -v: 'linker' input unused [-Wunused-command-line-argument]]
+        ignore line: [ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple arm64-apple-macosx26.0.0 -Wundef-prefix=TARGET_OS_ -Wdeprecated-objc-isa-usage -Werror=deprecated-objc-isa-usage -Werror=implicit-function-declaration -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -mframe-pointer=non-leaf -fno-strict-return -ffp-contract=on -fno-rounding-math -funwind-tables=1 -fobjc-msgsend-selector-stubs -fno-sized-deallocation -target-sdk-version=26.2 -fvisibility-inlines-hidden-static-local-var -fno-modulemap-allow-subdirectory-search -fdefine-target-os-macros -fno-assume-unique-vtables -fno-modulemap-allow-subdirectory-search -enable-tlsdesc -target-cpu apple-m1 -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +ccpp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +flagm -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -target-abi darwinpcs -debugger-tuning=lldb -fdebug-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH -target-linker-version 1267 -v -fcoverage-compilation-dir=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-rfaRFH -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21 -dependency-file CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o.d -skip-unused-modulemap-deps -MT CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -I/usr/local/include -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1 -internal-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include -internal-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include -internal-externc-isystem /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include -internal-externc-isystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks -internal-iframework /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks -Wno-elaborated-enum-base -fdeprecated-macro -ferror-limit 19 -stack-protector 1 -fstack-check -mdarwin-stkchk-strong-link -fblocks -fencode-extended-block-signature -fregister-global-dtors-with-atexit -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -fmax-type-align=16 -fcommon -clang-vendor-feature=+disableNonDependentMemberExprInCurrentInstantiation -fno-odr-hash-protocols -clang-vendor-feature=+enableAggressiveVLAFolding -clang-vendor-feature=+revert09abecef7bbf -clang-vendor-feature=+thisNoAlignAttr -clang-vendor-feature=+thisNoNullAttr -clang-vendor-feature=+disableAtImportPrivateFrameworkInImplementationError -Wno-error=allocator-wrappers -fdwarf2-cfi-asm -o CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -x c++ /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 21.0.0 (clang-2100.1.1.101) default target arm64-apple-darwin25.2.0]
+        ignore line: [ignoring nonexistent directory "/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include]
+        ignore line: [ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks (framework directory)]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/SubFrameworks (framework directory)]
+        ignore line: [End of search list.]
+        ignore line: [Linking CXX executable cmTC_2d2dd]
+        ignore line: [/opt/homebrew/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d2dd.dir/link.txt --verbose=1]
+        ignore line: [Apple clang version 21.0.0 (clang-2100.1.1.101)]
+        ignore line: [Target: arm64-apple-darwin25.2.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch arm64 -platform_version macos 26.0.0 26.2 -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk -mllvm -enable-linkonceodr-outlining -o cmTC_2d2dd -L/opt/homebrew/opt/tcl-tk@8/lib -L/usr/local/lib -v CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-lto_library] ==> ignore, skip following value
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [26.0.0] ==> ignore
+          arg [26.2] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk] ==> ignore
+          arg [-mllvm] ==> ignore
+          arg [-enable-linkonceodr-outlining] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2d2dd] ==> ignore
+          arg [-L/opt/homebrew/opt/tcl-tk@8/lib] ==> dir [/opt/homebrew/opt/tcl-tk@8/lib]
+          arg [-L/usr/local/lib] ==> dir [/usr/local/lib]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_2d2dd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lc++] ==> lib [c++]
+          arg [-lSystem] ==> lib [System]
+          arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        linker tool for 'CXX': /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+        Library search paths: [;/opt/homebrew/opt/tcl-tk@8/lib;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        remove lib [System]
+        remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/21/lib/darwin/libclang_rt.osx.a]
+        collapse library dir [/opt/homebrew/opt/tcl-tk@8/lib] ==> [/opt/homebrew/opt/tcl-tk@8/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/opt/homebrew/opt/tcl-tk@8/lib] ==> [/opt/homebrew/opt/tcl-tk@8/lib]
+        collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+        implicit libs: [c++]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/opt/tcl-tk@8/lib;/usr/local/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt"
+    message: |
+      Running the CXX compiler's linker: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1267
+      BUILD 18:30:29 Apr 22 2026
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 21.0.0 (static support for 30, runtime is 30)
+      TAPI support using: Apple TAPI version 21.0.0 (tapi-2100.0.2.6)
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindJNI.cmake:538 (find_library)"
+      - "CMakeLists.txt:4 (find_package)"
+    mode: "library"
+    variable: "JAVA_JVM_LIBRARY"
+    description: "Java Virtual Machine library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jvm"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/lib/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/lib/server/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/lib/"
+    found: "/Users/vhugo/.sdkman/candidates/java/current/lib/server/libjvm.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindJNI.cmake:544 (find_library)"
+      - "CMakeLists.txt:4 (find_package)"
+    mode: "library"
+    variable: "JAVA_AWT_LIBRARY"
+    description: "Java AWT Native Interface library"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jawt"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/lib/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/opt/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    found: "/Users/vhugo/.sdkman/candidates/java/current/lib/libjawt.dylib"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindJNI.cmake:566 (find_path)"
+      - "CMakeLists.txt:4 (find_package)"
+    mode: "path"
+    variable: "JAVA_INCLUDE_PATH"
+    description: "JNI include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jni.h"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/vhugo/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/jni.h"
+      - "/Users/vhugo/.pyenv/shims/jni.h"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/jni.h"
+      - "/opt/homebrew/bin/jni.h"
+      - "/opt/homebrew/sbin/jni.h"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/jni.h"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/jni.h"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/jni.h"
+      - "/usr/local/bin/jni.h"
+      - "/System/Cryptexes/App/usr/bin/jni.h"
+      - "/usr/bin/jni.h"
+      - "/bin/jni.h"
+      - "/usr/sbin/jni.h"
+      - "/sbin/jni.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/jni.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/jni.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/jni.h"
+      - "/opt/pmk/env/global/bin/jni.h"
+      - "/Library/Apple/usr/bin/jni.h"
+      - "/usr/local/go/bin/jni.h"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/jni.h"
+      - "/Users/vhugo/.cargo/bin/jni.h"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/jni.h"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/jni.h"
+      - "/Users/vhugo/Library/Android/sdk/tools/jni.h"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/jni.h"
+      - "/Users/vhugo/.maestro/bin/jni.h"
+      - "/Users/vhugo/.local/bin/jni.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/jni.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/jni.h"
+      - "/opt/homebrew/include/jni.h"
+      - "/opt/homebrew/jni.h"
+      - "/usr/local/include/jni.h"
+      - "/usr/local/jni.h"
+      - "/usr/include/jni.h"
+      - "/usr/jni.h"
+      - "/include/jni.h"
+      - "/usr/X11R6/include/jni.h"
+      - "/usr/X11R6/jni.h"
+      - "/usr/pkg/include/jni.h"
+      - "/usr/pkg/jni.h"
+      - "/opt/include/jni.h"
+      - "/opt/jni.h"
+      - "/sw/include/jni.h"
+      - "/sw/jni.h"
+      - "/opt/local/include/jni.h"
+      - "/opt/local/jni.h"
+      - "/usr/include/X11/jni.h"
+      - "/Users/vhugo/Library/Frameworks/jni.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/jni.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/jni.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/jni.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/jni.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/jni.h"
+      - "/Library/Frameworks/jni.h"
+      - "/Network/Library/Frameworks/jni.h"
+      - "/System/Library/Frameworks/jni.h"
+    found: "/Users/vhugo/.sdkman/candidates/java/current/include/"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/opt/homebrew/share/cmake/Modules/CheckSourceCompiles.cmake:205 (cmake_check_source_compiles)"
+      - "/opt/homebrew/share/cmake/Modules/FindJNI.cmake:590 (check_source_compiles)"
+      - "CMakeLists.txt:4 (find_package)"
+    directories:
+      source: "/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-KidHpU"
+      binary: "/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-KidHpU"
+    cmakeVariables:
+      CMAKE_CXX_STDLIB_MODULES_JSON: ""
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-L/opt/homebrew/opt/tcl-tk@8/lib"
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "JNI_INCLUDE_PATH2_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-KidHpU'
+        
+        Run Build Command(s): /opt/homebrew/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d8415/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_d8415.dir/build.make CMakeFiles/cmTC_d8415.dir/build
+        Building C object CMakeFiles/cmTC_d8415.dir/src.c.o
+        /usr/bin/cc -DJNI_INCLUDE_PATH2_OPTIONAL -I/Users/vhugo/.sdkman/candidates/java/current/include -arch arm64 -MD -MT CMakeFiles/cmTC_d8415.dir/src.c.o -MF CMakeFiles/cmTC_d8415.dir/src.c.o.d -o CMakeFiles/cmTC_d8415.dir/src.c.o -c /Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-KidHpU/src.c
+        In file included from /Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/CMakeScratch/TryCompile-KidHpU/src.c:2:
+        /Users/vhugo/.sdkman/candidates/java/current/include/jni.h:45:10: fatal error: 'jni_md.h' file not found
+           45 | #include "jni_md.h"
+              |          ^~~~~~~~~~
+        1 error generated.
+        make[1]: *** [CMakeFiles/cmTC_d8415.dir/src.c.o] Error 1
+        make: *** [cmTC_d8415/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindJNI.cmake:606 (find_path)"
+      - "CMakeLists.txt:4 (find_package)"
+    mode: "path"
+    variable: "JAVA_INCLUDE_PATH2"
+    description: "jni_md.h jniport.h include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jni_md.h"
+      - "jniport.h"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/vhugo/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/darwin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/win32/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/linux/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/freebsd/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/openbsd/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/solaris/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/hp-ux/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/alpha/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/aix/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/jni_md.h"
+      - "/Users/vhugo/.pyenv/shims/jni_md.h"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/jni_md.h"
+      - "/opt/homebrew/bin/jni_md.h"
+      - "/opt/homebrew/sbin/jni_md.h"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/jni_md.h"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/jni_md.h"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/jni_md.h"
+      - "/usr/local/bin/jni_md.h"
+      - "/System/Cryptexes/App/usr/bin/jni_md.h"
+      - "/usr/bin/jni_md.h"
+      - "/bin/jni_md.h"
+      - "/usr/sbin/jni_md.h"
+      - "/sbin/jni_md.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/jni_md.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/jni_md.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/jni_md.h"
+      - "/opt/pmk/env/global/bin/jni_md.h"
+      - "/Library/Apple/usr/bin/jni_md.h"
+      - "/usr/local/go/bin/jni_md.h"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/jni_md.h"
+      - "/Users/vhugo/.cargo/bin/jni_md.h"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/jni_md.h"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/jni_md.h"
+      - "/Users/vhugo/Library/Android/sdk/tools/jni_md.h"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/jni_md.h"
+      - "/Users/vhugo/.maestro/bin/jni_md.h"
+      - "/Users/vhugo/.local/bin/jni_md.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/jni_md.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/jni_md.h"
+      - "/opt/homebrew/include/jni_md.h"
+      - "/opt/homebrew/jni_md.h"
+      - "/usr/local/include/jni_md.h"
+      - "/usr/local/jni_md.h"
+      - "/usr/include/jni_md.h"
+      - "/usr/jni_md.h"
+      - "/include/jni_md.h"
+      - "/usr/X11R6/include/jni_md.h"
+      - "/usr/X11R6/jni_md.h"
+      - "/usr/pkg/include/jni_md.h"
+      - "/usr/pkg/jni_md.h"
+      - "/opt/include/jni_md.h"
+      - "/opt/jni_md.h"
+      - "/sw/include/jni_md.h"
+      - "/sw/jni_md.h"
+      - "/opt/local/include/jni_md.h"
+      - "/opt/local/jni_md.h"
+      - "/usr/include/X11/jni_md.h"
+      - "/Users/vhugo/Library/Frameworks/jni_md.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/jni_md.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/jni_md.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/jni_md.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/jni_md.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/jni_md.h"
+      - "/Library/Frameworks/jni_md.h"
+      - "/Network/Library/Frameworks/jni_md.h"
+      - "/System/Library/Frameworks/jni_md.h"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/jni_md.h"
+    found: "/Users/vhugo/.sdkman/candidates/java/current/include/darwin/"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/opt/homebrew/share/cmake/Modules/FindJNI.cmake:621 (find_path)"
+      - "CMakeLists.txt:4 (find_package)"
+    mode: "path"
+    variable: "JAVA_AWT_INCLUDE_PATH"
+    description: "Java AWT Native Interface include directory"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "jawt.h"
+    candidate_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/"
+      - "/Users/vhugo/.pyenv/shims/"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/"
+      - "/usr/local/bin/"
+      - "/System/Cryptexes/App/usr/bin/"
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/"
+      - "/opt/pmk/env/global/bin/"
+      - "/Library/Apple/usr/bin/"
+      - "/usr/local/go/bin/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/"
+      - "/Users/vhugo/.cargo/bin/"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/"
+      - "/Users/vhugo/Library/Android/sdk/tools/"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/"
+      - "/Users/vhugo/.maestro/bin/"
+      - "/Users/vhugo/.local/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/vhugo/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/Users/vhugo/.sdkman/candidates/java/current/include/"
+    searched_directories:
+      - "/opt/homebrew/opt/tcl-tk@8/bin/jawt.h"
+      - "/Users/vhugo/.pyenv/shims/jawt.h"
+      - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin/jawt.h"
+      - "/opt/homebrew/bin/jawt.h"
+      - "/opt/homebrew/sbin/jawt.h"
+      - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin/jawt.h"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand/jawt.h"
+      - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli/jawt.h"
+      - "/usr/local/bin/jawt.h"
+      - "/System/Cryptexes/App/usr/bin/jawt.h"
+      - "/usr/bin/jawt.h"
+      - "/bin/jawt.h"
+      - "/usr/sbin/jawt.h"
+      - "/sbin/jawt.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/jawt.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/jawt.h"
+      - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/jawt.h"
+      - "/opt/pmk/env/global/bin/jawt.h"
+      - "/Library/Apple/usr/bin/jawt.h"
+      - "/usr/local/go/bin/jawt.h"
+      - "/Users/vhugo/.sdkman/candidates/java/current/bin/jawt.h"
+      - "/Users/vhugo/.cargo/bin/jawt.h"
+      - "/Applications/iTerm.app/Contents/Resources/utilities/jawt.h"
+      - "/Users/vhugo/Library/Application Support/Coursier/bin/jawt.h"
+      - "/Users/vhugo/Library/Android/sdk/tools/jawt.h"
+      - "/Users/vhugo/Library/Android/sdk/platform-tools/jawt.h"
+      - "/Users/vhugo/.maestro/bin/jawt.h"
+      - "/Users/vhugo/.local/bin/jawt.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/jawt.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/jawt.h"
+      - "/opt/homebrew/include/jawt.h"
+      - "/opt/homebrew/jawt.h"
+      - "/usr/local/include/jawt.h"
+      - "/usr/local/jawt.h"
+      - "/usr/include/jawt.h"
+      - "/usr/jawt.h"
+      - "/include/jawt.h"
+      - "/usr/X11R6/include/jawt.h"
+      - "/usr/X11R6/jawt.h"
+      - "/usr/pkg/include/jawt.h"
+      - "/usr/pkg/jawt.h"
+      - "/opt/include/jawt.h"
+      - "/opt/jawt.h"
+      - "/sw/include/jawt.h"
+      - "/sw/jawt.h"
+      - "/opt/local/include/jawt.h"
+      - "/opt/local/jawt.h"
+      - "/usr/include/X11/jawt.h"
+      - "/Users/vhugo/Library/Frameworks/jawt.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks/jawt.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks/jawt.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks/jawt.h"
+      - "/Library/Developer/CommandLineTools/Library/Frameworks/jawt.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/jawt.h"
+      - "/Library/Frameworks/jawt.h"
+      - "/Network/Library/Frameworks/jawt.h"
+      - "/System/Library/Frameworks/jawt.h"
+    found: "/Users/vhugo/.sdkman/candidates/java/current/include/"
+    search_context:
+      ENV{PATH}:
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.pyenv/shims"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/opt/homebrew/bin"
+        - "/opt/homebrew/sbin"
+        - "/Users/vhugo/.vscode/extensions/vadimcn.vscode-lldb-1.12.1/bin"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/debugCommand"
+        - "/Users/vhugo/Library/Application Support/Code/User/globalStorage/github.copilot-chat/copilotCli"
+        - "/usr/local/bin"
+        - "/System/Cryptexes/App/usr/bin"
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin"
+        - "/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin"
+        - "/opt/pmk/env/global/bin"
+        - "/Library/Apple/usr/bin"
+        - "/usr/local/go/bin"
+        - "/opt/homebrew/opt/tcl-tk@8/bin"
+        - "/Users/vhugo/.nvm/versions/node/v24.0.0/bin"
+        - "/Users/vhugo/.sdkman/candidates/java/current/bin"
+        - "/Users/vhugo/.cargo/bin"
+        - "/Applications/iTerm.app/Contents/Resources/utilities"
+        - "/Users/vhugo/Library/Application Support/Coursier/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+        - "/Users/vhugo/Library/Android/sdk/tools"
+        - "/Users/vhugo/Library/Android/sdk/platform-tools"
+        - "/Users/vhugo/.maestro/bin"
+        - "/Users/vhugo/.local/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/opt/homebrew"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Library/Developer/CommandLineTools/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...

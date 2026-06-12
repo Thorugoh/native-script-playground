@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -dynamiclib -Wl,-headerpad_max_install_names -L/opt/homebrew/opt/tcl-tk@8/lib -o libruntime_poc.dylib -install_name @rpath/libruntime_poc.dylib CMakeFiles/runtime_poc.dir/runtime.cpp.o   -L/opt/homebrew/opt/v8/lib  -Wl,-rpath,/opt/homebrew/opt/v8/lib -lv8 -lv8_libplatform -lv8_libbase

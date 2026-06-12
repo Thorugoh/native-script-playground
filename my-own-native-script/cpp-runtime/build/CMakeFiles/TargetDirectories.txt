@@ -1,0 +1,3 @@
+/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/runtime_poc.dir
+/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/edit_cache.dir
+/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build/CMakeFiles/rebuild_cache.dir

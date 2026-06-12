@@ -14,7 +14,7 @@ public class AsmInspector {
     public static void main(String[] args) {
         Path classFilePath = Paths.get("../math-app/target/classes/com/vhugo/MathUtils.class");
 
-        Path outputHeaderDir = Paths.get("../cpp-bridge");
+        Path outputHeaderDir = Paths.get("../cpp-runtime");
         Path outputHeaderPath = outputHeaderDir.resolve("Metadata.h");
 
         try {
