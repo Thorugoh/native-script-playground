@@ -18,6 +18,12 @@ add_library(
     runtime.cpp
 )
 
+target_compile_definitions(
+    runtime_poc 
+    PRIVATE 
+    V8_COMPRESS_POINTERS
+)
+
 target_include_directories(
     runtime_poc 
     PRIVATE 

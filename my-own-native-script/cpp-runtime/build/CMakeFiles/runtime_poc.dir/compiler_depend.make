@@ -804,6 +804,7 @@ CMakeFiles/runtime_poc.dir/runtime.cpp.o: /Users/vhugo/repos/native-script-playg
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/type_traits \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/typeinfo \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/utility \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/variant \
   /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/vector \
@@ -953,6 +954,9 @@ CMakeFiles/runtime_poc.dir/runtime.cpp.o: /Users/vhugo/repos/native-script-playg
   /opt/homebrew/opt/v8/include/cppgc/source-location.h \
   /opt/homebrew/opt/v8/include/cppgc/trace-trait.h \
   /opt/homebrew/opt/v8/include/cppgc/type-traits.h \
+  /opt/homebrew/opt/v8/include/libplatform/libplatform-export.h \
+  /opt/homebrew/opt/v8/include/libplatform/libplatform.h \
+  /opt/homebrew/opt/v8/include/libplatform/v8-tracing.h \
   /opt/homebrew/opt/v8/include/v8-array-buffer.h \
   /opt/homebrew/opt/v8/include/v8-callbacks.h \
   /opt/homebrew/opt/v8/include/v8-container.h \
@@ -1029,8 +1033,6 @@ CMakeFiles/runtime_poc.dir/runtime.cpp.o: /Users/vhugo/repos/native-script-playg
 
 /opt/homebrew/opt/v8/include/v8-object.h:
 
-/opt/homebrew/opt/v8/include/v8-microtask.h:
-
 /opt/homebrew/opt/v8/include/v8-maybe.h:
 
 /opt/homebrew/opt/v8/include/v8-locker.h:
@@ -1064,6 +1066,14 @@ CMakeFiles/runtime_poc.dir/runtime.cpp.o: /Users/vhugo/repos/native-script-playg
 /opt/homebrew/opt/v8/include/v8-callbacks.h:
 
 /opt/homebrew/opt/v8/include/v8-array-buffer.h:
+
+/opt/homebrew/opt/v8/include/v8-microtask.h:
+
+/opt/homebrew/opt/v8/include/libplatform/v8-tracing.h:
+
+/opt/homebrew/opt/v8/include/libplatform/libplatform.h:
+
+/opt/homebrew/opt/v8/include/libplatform/libplatform-export.h:
 
 /opt/homebrew/opt/v8/include/cppgc/type-traits.h:
 
@@ -1296,6 +1306,8 @@ CMakeFiles/runtime_poc.dir/runtime.cpp.o: /Users/vhugo/repos/native-script-playg
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/in_out_result.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__variant/monostate.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/unordered_set:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__utility/priority_tag.h:
 

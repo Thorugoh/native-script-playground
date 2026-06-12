@@ -243,15 +243,6 @@ NativeScriptRuntimePOC_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 NativeScriptRuntimePOC_SOURCE_DIR:STATIC=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime
 
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime/build
-
-//Value Computed by CMake
-Project_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/Users/vhugo/repos/native-script-playground/my-own-native-script/cpp-runtime
-
 
 ########################
 # INTERNAL cache entries
