@@ -1,38 +1,25 @@
-import { Observable } from '@nativescript/core'
+import { Observable, Application , Utils } from '@nativescript/core'
 
-export class HelloWorldModel extends Observable {
-  private _counter: number
-  private _message: string
+function ctx(): android.content.Context {
+  return Utils.android.getApplicationContext();
+}
 
-  constructor() {
-    super()
+function batteryLevel(): number {
+  const bm = ctx().getSystemService(android.content.Context.BATTERY_SERVICE) as android.os.BatteryManager;
+  return bm.getIntProperty(android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY);
+}
 
-    // Initialize default values.
-    this._counter = 42
-    this.updateMessage()
-  }
+export function createViewModel(): Observable {
+  const vm = new Observable();
 
-  get message(): string {
-    return this._message
-  }
+  vm.set("battery", batteryLevel());
+  vm.set("log", "Ready press a button");
 
-  set message(value: string) {
-    if (this._message !== value) {
-      this._message = value
-      this.notifyPropertyChange('message', value)
-    }
-  }
+  vm.set('onUpdateBattery', () => {
+    const level = batteryLevel();
+    vm.set("battery", level);
+    vm.set("log", `Battery read via BatteryManager: ${level}`)
+  });
 
-  onTap() {
-    this._counter--
-    this.updateMessage()
-  }
-
-  private updateMessage() {
-    if (this._counter <= 0) {
-      this.message = 'Hoorraaay! You unlocked the NativeScript clicker achievement!'
-    } else {
-      this.message = `${this._counter} taps left`
-    }
-  }
+  return vm;
 }
