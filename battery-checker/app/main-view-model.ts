@@ -5,28 +5,54 @@ function ctx(): android.content.Context {
 }
 
 function batteryLevel(): number {
-  const bm = ctx().getSystemService(android.content.Context.BATTERY_SERVICE) as android.os.BatteryManager;
-  return bm.getIntProperty(android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY);
+  if(isAndroid) {
+    const bm = ctx().getSystemService(android.content.Context.BATTERY_SERVICE) as android.os.BatteryManager;
+    return bm.getIntProperty(android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY);
+  }
+
+  if(isIOS) {
+    const device = UIDevice.currentDevice;
+    device.batteryMonitoringEnabled = true;
+    const level = device.batteryLevel;
+    return level < 0 ? -1 : Math.round(level * 100);
+  }
+
+  return -1;
 }
 
 function vibrate(ms: number): void {
-  const v = ctx().getSystemService(android.content.Context.VIBRATOR_SERVICE) as android.os.Vibrator;
-  if (android.os.Build.VERSION.SDK_INT >= 26) {
-    v.vibrate(
-      android.os.VibrationEffect.createOneShot(
-        ms,
-        android.os.VibrationEffect.DEFAULT_AMPLITUDE
-      )
-    );
-  } else {
-    v.vibrate(ms); // fallback API < 26
+  if (isAndroid) {
+    const v = Application.android.context.getSystemService(
+      android.content.Context.VIBRATOR_SERVICE
+    ) as android.os.Vibrator;
+
+    if (android.os.Build.VERSION.SDK_INT >= 26) {
+      v.vibrate(
+        android.os.VibrationEffect.createOneShot(ms, android.os.VibrationEffect.DEFAULT_AMPLITUDE)
+      );
+    } else {
+      v.vibrate(ms);
+    }
+    return;
   }
 }
 
 function toast(msg: string): void {
-  android.widget.Toast
-    .makeText(ctx(), msg, android.widget.Toast.LENGTH_SHORT)
-    .show();
+  if (isAndroid) {
+    android.widget.Toast
+      .makeText(Application.android.context, msg, android.widget.Toast.LENGTH_SHORT)
+      .show();
+    return;
+  }
+
+  if (isIOS) {
+    const alert = UIAlertController.alertControllerWithTitleMessagePreferredStyle(
+      "Title", msg, UIAlertControllerStyle.Alert
+    );
+    const root = Application.ios.rootController;
+    root.presentViewControllerAnimatedCompletion(alert, true, ()=>{});
+    setTimeout(() => alert.dismissViewControllerAnimatedCompletion(true, ()=>{}), 1500);
+  }
 }
 
 export function createViewModel(): Observable {
