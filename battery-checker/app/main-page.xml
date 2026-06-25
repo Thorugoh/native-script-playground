@@ -6,6 +6,9 @@
         
         <StackLayout row="1" spacing="10">
             <Button text="Read battery (native)" tap="{{ onUpdateBattery }}"/>
+            <Button text="Vibrate (native)" tap="{{ onVibrate }}"/>
+            <Button text="Toast (native)" tap="{{ onToast }}"/>
+
         </StackLayout>
 
         <Label row="2" text="{{ log }}" textWrap="true" verticalAlignment="bottom" color="#666" />
