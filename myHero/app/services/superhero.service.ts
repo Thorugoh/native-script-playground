@@ -3,8 +3,9 @@ import { Hero, SuperHeroSearchResponse, toHero } from '../models/superhero.model
 
 const BASE_URL = 'https://superheroapi.com/api'
 
+// Injected at build time from .env via NativeScript's webpack DefinePlugin.
 // Generate your token at https://superheroapi.com (sign in with GitHub).
-const ACCESS_TOKEN = 'REDACTED_SUPERHERO_TOKEN'
+const ACCESS_TOKEN = process.env.SUPERHERO_API_TOKEN
 
 export class SuperHeroService {
   private static _instance: SuperHeroService = new SuperHeroService()

@@ -3,6 +3,11 @@ hooks/
 node_modules/
 platforms/
 
+# Environment
+.env
+.env.*
+!.env.example
+
 # Logs
 logs
 *.log
