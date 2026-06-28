@@ -4,6 +4,10 @@ export interface SuperHeroImage {
 
 export interface SuperHeroBiography {
   'full-name': string
+  'alter-egos': string
+  aliases: string[]
+  'place-of-birth': string
+  'first-appearance': string
   publisher: string
   alignment: string
 }
@@ -22,11 +26,24 @@ export interface SuperHeroSearchResponse {
   results?: SuperHeroResult[]
 }
 
+// Flattened biography for the UI. The API uses hyphenated keys (e.g. "full-name"),
+// which are awkward for XML binding, so we expose camelCase fields here.
+export interface HeroBiography {
+  fullName: string
+  alterEgos: string
+  aliases: string
+  placeOfBirth: string
+  firstAppearance: string
+  publisher: string
+  alignment: string
+}
+
 export interface Hero {
   id: string
   name: string
   description: string
   imageUrl: string
+  biography: HeroBiography
 }
 
 // SuperHero API image URLs point to superherodb.com, which sits behind Cloudflare
@@ -40,6 +57,18 @@ function imageUrlFor(id: string, name: string): string {
   return `${IMAGE_CDN}/${id}-${slug}.jpg`
 }
 
+function toBiography(b: SuperHeroBiography): HeroBiography {
+  return {
+    fullName: b['full-name'],
+    alterEgos: b['alter-egos'],
+    aliases: Array.isArray(b.aliases) ? b.aliases.join(', ') : '',
+    placeOfBirth: b['place-of-birth'],
+    firstAppearance: b['first-appearance'],
+    publisher: b.publisher,
+    alignment: b.alignment,
+  }
+}
+
 export function toHero(r: SuperHeroResult): Hero {
   const fullName = r.biography['full-name']
   const publisher = r.biography.publisher
@@ -50,5 +79,6 @@ export function toHero(r: SuperHeroResult): Hero {
     name: r.name,
     description: parts.length ? parts.join(' · ') : 'No info available.',
     imageUrl: imageUrlFor(r.id, r.name),
+    biography: toBiography(r.biography),
   }
 }

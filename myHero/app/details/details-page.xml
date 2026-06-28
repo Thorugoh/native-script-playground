@@ -1,0 +1,34 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
+    <ActionBar title="{{ hero.name }}" />
+
+    <ScrollView>
+        <StackLayout class="p-20">
+            <Image src="{{ hero.imageUrl }}" width="200" height="200" stretch="aspectFill"
+                   borderRadius="8" horizontalAlignment="center" />
+            <Label text="{{ hero.name }}" fontWeight="700" fontSize="24" textAlignment="center" marginTop="16" />
+            <Label text="{{ hero.description }}" textWrap="true" fontSize="16" textAlignment="center" marginTop="8" />
+
+            <Label text="Biography" fontWeight="700" fontSize="18" marginTop="24" marginBottom="8" />
+
+            <GridLayout columns="auto, *" rows="auto, auto, auto, auto, auto, auto" class="bg-secondary" padding="12">
+                <Label col="0" row="0" text="Full name" fontWeight="600" marginRight="12" marginBottom="6" />
+                <Label col="1" row="0" text="{{ hero.biography.fullName }}" textWrap="true" marginBottom="6" />
+
+                <Label col="0" row="1" text="Alter egos" fontWeight="600" marginRight="12" marginBottom="6" />
+                <Label col="1" row="1" text="{{ hero.biography.alterEgos }}" textWrap="true" marginBottom="6" />
+
+                <Label col="0" row="2" text="Aliases" fontWeight="600" marginRight="12" marginBottom="6" />
+                <Label col="1" row="2" text="{{ hero.biography.aliases }}" textWrap="true" marginBottom="6" />
+
+                <Label col="0" row="3" text="Place of birth" fontWeight="600" marginRight="12" marginBottom="6" />
+                <Label col="1" row="3" text="{{ hero.biography.placeOfBirth }}" textWrap="true" marginBottom="6" />
+
+                <Label col="0" row="4" text="First appearance" fontWeight="600" marginRight="12" marginBottom="6" />
+                <Label col="1" row="4" text="{{ hero.biography.firstAppearance }}" textWrap="true" marginBottom="6" />
+
+                <Label col="0" row="5" text="Publisher" fontWeight="600" marginRight="12" />
+                <Label col="1" row="5" text="{{ hero.biography.publisher }}" textWrap="true" />
+            </GridLayout>
+        </StackLayout>
+    </ScrollView>
+</Page>

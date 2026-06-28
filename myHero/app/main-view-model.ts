@@ -1,4 +1,4 @@
-import { Observable, SearchBar } from '@nativescript/core'
+import { Frame, ItemEventData, Observable, SearchBar } from '@nativescript/core'
 import { Hero } from './models/superhero.model'
 import { SuperHeroService } from './services/superhero.service'
 
@@ -59,6 +59,14 @@ export class HelloWorldModel extends Observable {
     const term = args.object.text
     this.search = term
     await this.runSearch(term)
+  }
+
+  // Bound to the ListView itemTap event in the XML.
+  onHeroTap(args: ItemEventData) {
+    Frame.topmost().navigate({
+      moduleName: 'details/details-page',
+      context: this._heroes[args.index],
+    })
   }
 
   private async runSearch(term: string) {

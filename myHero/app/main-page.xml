@@ -9,7 +9,7 @@
         <Label row="1" text="{{ error }}" color="red" textWrap="true"
                visibility="{{ error ? 'visible' : 'collapsed' }}" />
 
-        <ListView row="2" items="{{ heroes }}">
+        <ListView row="2" items="{{ heroes }}" itemTap="{{ onHeroTap }}">
             <ListView.itemTemplate>
                 <GridLayout columns="auto, *" rows="auto, auto" padding="10" class="bg-secondary">
                     <Image col="0" rowSpan="2" src="{{ imageUrl }}" width="60" height="60" stretch="aspectFill" />
