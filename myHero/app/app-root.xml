@@ -1,2 +1,11 @@
-<Frame defaultPage="main-page">
-</Frame>
+<TabView xmlns="http://schemas.nativescript.org/tns.xsd" androidTabsPosition="bottom"
+         selectedIndexChanged="onSelectedIndexChanged">
+    <TabView.items>
+        <TabViewItem title="Search">
+            <Frame defaultPage="main-page" />
+        </TabViewItem>
+        <TabViewItem title="Favorites">
+            <Frame defaultPage="favorites/favorites-page" />
+        </TabViewItem>
+    </TabView.items>
+</TabView>

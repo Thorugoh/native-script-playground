@@ -1,5 +1,6 @@
-import { EventData, Frame, ItemEventData, Observable, ObservableArray, SearchBar, View } from '@nativescript/core'
+import { EventData, ItemEventData, Observable, ObservableArray, SearchBar, View } from '@nativescript/core'
 import { Hero } from './models/superhero.model'
+import { FavoritesService } from './services/favorites.service'
 import { SuperHeroService } from './services/superhero.service'
 
 export class HelloWorldModel extends Observable {
@@ -7,12 +8,10 @@ export class HelloWorldModel extends Observable {
   private _heroes = new ObservableArray<Hero>()
   private _loading = false
   private _error = ''
- 
-  private _favoriteIds = new Set<string>()
+  private _favorites = FavoritesService.getInstance()
 
   constructor() {
     super()
-    this.toggleFavorite = this.toggleFavorite.bind(this)
   }
 
   get search(): string {
@@ -28,6 +27,18 @@ export class HelloWorldModel extends Observable {
 
   get heroes(): ObservableArray<Hero> {
     return this._heroes
+  }
+
+  // Re-sync each row's favorite flag with the shared service (e.g. after the
+  // Favorites tab unfavorited something). Called when this tab becomes active.
+  refreshFavorites() {
+    for (let i = 0; i < this._heroes.length; i++) {
+      const hero = this._heroes.getItem(i)
+      const favorite = this._favorites.isFavorite(hero.id)
+      if (hero.favorite !== favorite) {
+        this._heroes.setItem(i, { ...hero, favorite })
+      }
+    }
   }
 
   get loading(): boolean {
@@ -61,7 +72,8 @@ export class HelloWorldModel extends Observable {
 
   // Bound to the ListView itemTap event in the XML.
   onHeroTap(args: ItemEventData) {
-    Frame.topmost().navigate({
+    const listView = args.object as View
+    listView.page.frame.navigate({
       moduleName: 'details/details-page',
       context: this._heroes.getItem(args.index),
     })
@@ -74,12 +86,7 @@ export class HelloWorldModel extends Observable {
     const index = this._heroes.indexOf(hero)
     if (index < 0) return
 
-    const favorite = !hero.favorite
-    if (favorite) {
-      this._favoriteIds.add(hero.id)
-    } else {
-      this._favoriteIds.delete(hero.id)
-    }
+    const favorite = this._favorites.toggle(hero)
     this._heroes.setItem(index, { ...hero, favorite })
   }
 
@@ -96,7 +103,7 @@ export class HelloWorldModel extends Observable {
       const results = await SuperHeroService.getInstance().searchHeroes(term)
       const withFavorites = results.map((hero) => ({
         ...hero,
-        favorite: this._favoriteIds.has(hero.id),
+        favorite: this._favorites.isFavorite(hero.id),
       }))
       this._heroes.push(...withFavorites)
     } catch (err) {
