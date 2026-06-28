@@ -7,6 +7,8 @@ export class HelloWorldModel extends Observable {
   private _heroes = new ObservableArray<Hero>()
   private _loading = false
   private _error = ''
+ 
+  private _favoriteIds = new Set<string>()
 
   constructor() {
     super()
@@ -71,7 +73,14 @@ export class HelloWorldModel extends Observable {
     const hero = (args.object as View).bindingContext as Hero
     const index = this._heroes.indexOf(hero)
     if (index < 0) return
-    this._heroes.setItem(index, { ...hero, favorite: !hero.favorite })
+
+    const favorite = !hero.favorite
+    if (favorite) {
+      this._favoriteIds.add(hero.id)
+    } else {
+      this._favoriteIds.delete(hero.id)
+    }
+    this._heroes.setItem(index, { ...hero, favorite })
   }
 
   private async runSearch(term: string) {
@@ -85,7 +94,11 @@ export class HelloWorldModel extends Observable {
     this.error = ''
     try {
       const results = await SuperHeroService.getInstance().searchHeroes(term)
-      this._heroes.push(...results)
+      const withFavorites = results.map((hero) => ({
+        ...hero,
+        favorite: this._favoriteIds.has(hero.id),
+      }))
+      this._heroes.push(...withFavorites)
     } catch (err) {
       this.error = 'Failed to load heroes.'
       console.error('Hero search failed:', err)
