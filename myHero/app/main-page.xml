@@ -11,10 +11,14 @@
 
         <ListView row="2" items="{{ heroes }}" itemTap="{{ onHeroTap }}">
             <ListView.itemTemplate>
-                <GridLayout columns="auto, *" rows="auto, auto" padding="10" class="bg-secondary">
+                <GridLayout columns="auto, *, auto" rows="auto, auto" padding="10" class="bg-secondary">
                     <Image col="0" rowSpan="2" src="{{ imageUrl }}" width="60" height="60" stretch="aspectFill" />
                     <Label col="1" row="0" text="{{ name }}" fontWeight="700" fontSize="16" margin="0 10" />
                     <Label col="1" row="1" text="{{ description }}" textWrap="true" fontSize="12" margin="0 10" />
+                    <Label col="2" rowSpan="2" text="{{ favorite ? '♥' : '♡' }}"
+                           color="{{ favorite ? '#e0245e' : '#999' }}" fontSize="28"
+                           verticalAlignment="center" padding="8"
+                           tap="{{ $parents['Page'].toggleFavorite }}" />
                 </GridLayout>
             </ListView.itemTemplate>
         </ListView>

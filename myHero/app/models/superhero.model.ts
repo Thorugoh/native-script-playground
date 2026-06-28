@@ -43,6 +43,7 @@ export interface Hero {
   name: string
   description: string
   imageUrl: string
+  favorite: boolean
   biography: HeroBiography
 }
 
@@ -79,6 +80,7 @@ export function toHero(r: SuperHeroResult): Hero {
     name: r.name,
     description: parts.length ? parts.join(' · ') : 'No info available.',
     imageUrl: imageUrlFor(r.id, r.name),
+    favorite: false,
     biography: toBiography(r.biography),
   }
 }

@@ -1,15 +1,16 @@
-import { Frame, ItemEventData, Observable, SearchBar } from '@nativescript/core'
+import { EventData, Frame, ItemEventData, Observable, ObservableArray, SearchBar, View } from '@nativescript/core'
 import { Hero } from './models/superhero.model'
 import { SuperHeroService } from './services/superhero.service'
 
 export class HelloWorldModel extends Observable {
   private _search = ''
-  private _heroes: Hero[] = []
+  private _heroes = new ObservableArray<Hero>()
   private _loading = false
   private _error = ''
 
   constructor() {
     super()
+    this.toggleFavorite = this.toggleFavorite.bind(this)
   }
 
   get search(): string {
@@ -23,13 +24,8 @@ export class HelloWorldModel extends Observable {
     }
   }
 
-  get heroes(): Hero[] {
+  get heroes(): ObservableArray<Hero> {
     return this._heroes
-  }
-
-  set heroes(value: Hero[]) {
-    this._heroes = value
-    this.notifyPropertyChange('heroes', value)
   }
 
   get loading(): boolean {
@@ -65,23 +61,33 @@ export class HelloWorldModel extends Observable {
   onHeroTap(args: ItemEventData) {
     Frame.topmost().navigate({
       moduleName: 'details/details-page',
-      context: this._heroes[args.index],
+      context: this._heroes.getItem(args.index),
     })
   }
 
+  // Bound to the favorite icon tap in the item template.
+  // Replacing the item via setItem notifies the ObservableArray, so only this row re-renders.
+  toggleFavorite(args: EventData) {
+    const hero = (args.object as View).bindingContext as Hero
+    const index = this._heroes.indexOf(hero)
+    if (index < 0) return
+    this._heroes.setItem(index, { ...hero, favorite: !hero.favorite })
+  }
+
   private async runSearch(term: string) {
+    this._heroes.splice(0)
+
     if (!term || !term.trim()) {
-      this.heroes = []
       return
     }
 
     this.loading = true
     this.error = ''
     try {
-      this.heroes = await SuperHeroService.getInstance().searchHeroes(term)
+      const results = await SuperHeroService.getInstance().searchHeroes(term)
+      this._heroes.push(...results)
     } catch (err) {
       this.error = 'Failed to load heroes.'
-      this.heroes = []
       console.error('Hero search failed:', err)
     } finally {
       this.loading = false
