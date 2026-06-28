@@ -3,14 +3,9 @@ import { Hero, SuperHeroSearchResponse, toHero } from '../models/superhero.model
 
 const BASE_URL = 'https://superheroapi.com/api'
 
-// Token da SuperHero API — gere o seu em https://superheroapi.com (login com GitHub).
-// Auth simples: o token vai direto na URL. Sem ts/hash (MD5 não é mais necessário).
+// Generate your token at https://superheroapi.com (sign in with GitHub).
 const ACCESS_TOKEN = 'REDACTED_SUPERHERO_TOKEN'
 
-/**
- * Service singleton — unica camada que conhece a SuperHero API.
- * O ViewModel chama SuperHeroService.getInstance().searchHeroes(...), nunca o Http direto.
- */
 export class SuperHeroService {
   private static _instance: SuperHeroService = new SuperHeroService()
 
@@ -23,14 +18,10 @@ export class SuperHeroService {
     if (!term) return []
 
     const url = `${BASE_URL}/${ACCESS_TOKEN}/search/${encodeURIComponent(term)}`
-    console.log({url});
-    
     const res = await Http.getJSON<SuperHeroSearchResponse>(url)
-    console.log({res});
-    
-    // A API retorna response:"error" quando não há resultados — não é uma falha de rede.
+
+    // The API returns response:"error" when there are no matches, not a network failure.
     if (res.response !== 'success' || !res.results) {
-      
       return []
     }
     return res.results.map(toHero)

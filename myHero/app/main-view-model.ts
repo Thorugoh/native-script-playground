@@ -54,7 +54,7 @@ export class HelloWorldModel extends Observable {
     }
   }
 
-  // Ligado ao submit do SearchBar no XML.
+  // Bound to the SearchBar submit event in the XML.
   async onSearch(args: { object: SearchBar }) {
     const term = args.object.text
     this.search = term
@@ -74,7 +74,7 @@ export class HelloWorldModel extends Observable {
     } catch (err) {
       this.error = 'Failed to load heroes.'
       this.heroes = []
-      console.error('Marvel search failed:', err)
+      console.error('Hero search failed:', err)
     } finally {
       this.loading = false
     }
