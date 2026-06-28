@@ -1,0 +1,14 @@
+{
+  "xml.fileAssociations": [
+    {
+      "pattern": "app/**/*.xml",
+      "systemId": "${workspaceFolder}/.vscode/nativescript.xsd"
+    }
+  ],
+  "xml.catalogs": [],
+  "xml.completion.autoCloseTags": true,
+  "xml.format.enabled": true,
+  "files.associations": {
+    "*.xml": "xml"
+  }
+}
