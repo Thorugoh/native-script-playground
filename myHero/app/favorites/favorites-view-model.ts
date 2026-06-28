@@ -1,4 +1,4 @@
-import { EventData, Observable, ObservableArray, View } from '@nativescript/core'
+import { CoreTypes, EventData, Observable, ObservableArray, View } from '@nativescript/core'
 import { Hero } from '../models/superhero.model'
 import { FavoritesService } from '../services/favorites.service'
 
@@ -38,12 +38,24 @@ export class FavoritesViewModel extends Observable {
 
   // Bound to the heart tap in the XML.
   removeFavorite(args: EventData) {
-    const hero = (args.object as View).bindingContext as Hero
-    this._favorites.toggle(hero)
-    const index = this._heroes.indexOf(hero)
-    if (index >= 0) {
-      this._heroes.splice(index, 1)
-    }
-    this.notifyPropertyChange('isEmpty', this.isEmpty)
+    const icon = args.object as View
+    const hero = icon.bindingContext as Hero
+
+    // Shrink + fade the card out, then drop it from the list.
+    icon
+      .animate({
+        scale: { x: 0, y: 0 },
+        opacity: 0,
+        duration: 220,
+        curve: CoreTypes.AnimationCurve.easeIn,
+      })
+      .then(() => {
+        this._favorites.toggle(hero)
+        const index = this._heroes.indexOf(hero)
+        if (index >= 0) {
+          this._heroes.splice(index, 1)
+        }
+        this.notifyPropertyChange('isEmpty', this.isEmpty)
+      })
   }
 }

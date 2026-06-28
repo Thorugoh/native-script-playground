@@ -2,6 +2,7 @@ import { EventData, ItemEventData, Observable, ObservableArray, SearchBar, View 
 import { Hero } from './models/superhero.model'
 import { FavoritesService } from './services/favorites.service'
 import { SuperHeroService } from './services/superhero.service'
+import { pulse } from './utils/animations'
 
 export class HelloWorldModel extends Observable {
   private _search = ''
@@ -82,12 +83,14 @@ export class HelloWorldModel extends Observable {
   // Bound to the favorite icon tap in the item template.
   // Replacing the item via setItem notifies the ObservableArray, so only this row re-renders.
   toggleFavorite(args: EventData) {
-    const hero = (args.object as View).bindingContext as Hero
+    const icon = args.object as View
+    const hero = icon.bindingContext as Hero
     const index = this._heroes.indexOf(hero)
     if (index < 0) return
 
     const favorite = this._favorites.toggle(hero)
-    this._heroes.setItem(index, { ...hero, favorite })
+    // Pulse the tapped icon first, then swap the row so the new state appears after.
+    pulse(icon).then(() => this._heroes.setItem(index, { ...hero, favorite }))
   }
 
   private async runSearch(term: string) {
