@@ -65,8 +65,8 @@ export class HelloWorldModel extends Observable {
   }
 
   // Bound to the SearchBar submit event in the XML.
-  async onSearch(args: { object: SearchBar }) {
-    const term = args.object.text
+  async onSearch(args: EventData) {
+    const term = (args.object as SearchBar).text
     this.search = term
     await this.runSearch(term)
   }

@@ -3,7 +3,7 @@
 
     <GridLayout rows="*">
         <Label text="No favorites yet." textAlignment="center" verticalAlignment="center"
-               color="#999" fontSize="16" visibility="{{ isEmpty ? 'visible' : 'collapsed' }}" />
+               class="empty-hint" fontSize="16" visibility="{{ isEmpty ? 'visible' : 'collapsed' }}" />
 
         <ScrollView visibility="{{ isEmpty ? 'collapsed' : 'visible' }}">
             <Repeater items="{{ heroes }}">
@@ -11,15 +11,15 @@
                     <WrapLayout orientation="horizontal" />
                 </Repeater.itemsLayout>
                 <Repeater.itemTemplate>
-                    <StackLayout width="50%" padding="8">
-                        <StackLayout class="bg-secondary" borderRadius="10" padding="8">
+                    <StackLayout width="50%" padding="6">
+                        <StackLayout class="card" padding="8">
                             <GridLayout rows="*" columns="*" height="150">
-                                <Image src="{{ imageUrl }}" stretch="aspectFill" borderRadius="8" tap="onHeroTap" />
-                                <Label text="♥" color="#e0245e" fontSize="26"
+                                <Image src="{{ imageUrl }}" stretch="aspectFill" borderRadius="6" tap="onHeroTap" />
+                                <Label text="♥" class="heart" fontSize="28"
                                        horizontalAlignment="right" verticalAlignment="bottom" padding="6"
                                        tap="removeFavorite" />
                             </GridLayout>
-                            <Label text="{{ name }}" fontWeight="700" fontSize="15" textAlignment="center"
+                            <Label class="hero-name" text="{{ name }}" fontSize="14" textAlignment="center"
                                    textWrap="true" marginTop="8" tap="onHeroTap" />
                         </StackLayout>
                     </StackLayout>

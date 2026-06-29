@@ -1,22 +1,23 @@
 <Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo">
     <ActionBar title="My Heroes" icon="" />
 
-    <GridLayout rows="auto, auto, *" class="p-10">
+    <GridLayout rows="auto, auto, *">
         <SearchBar row="0" hint="Search a Hero" text="{{ search }}" submit="onSearch" />
 
         <ActivityIndicator row="1" busy="{{ loading }}" visibility="{{ loading ? 'visible' : 'collapsed' }}" />
 
-        <Label row="1" text="{{ error }}" color="red" textWrap="true"
+        <Label row="1" class="error" text="{{ error }}" textWrap="true" textAlignment="center"
                visibility="{{ error ? 'visible' : 'collapsed' }}" />
 
-        <ListView row="2" items="{{ heroes }}" itemTap="onHeroTap">
+        <ListView row="2" items="{{ heroes }}" itemTap="onHeroTap" itemLoading="onItemLoading" separatorColor="transparent">
             <ListView.itemTemplate>
-                <GridLayout columns="auto, *, auto" rows="auto, auto" padding="10" class="bg-secondary">
-                    <Image col="0" rowSpan="2" src="{{ imageUrl }}" width="60" height="60" stretch="aspectFill" />
-                    <Label col="1" row="0" text="{{ name }}" fontWeight="700" fontSize="16" margin="0 10" />
-                    <Label col="1" row="1" text="{{ description }}" textWrap="true" fontSize="12" margin="0 10" />
+                <GridLayout columns="auto, *, auto" rows="auto, auto" class="card" padding="10" margin="8 10 0 10">
+                    <Image col="0" rowSpan="2" src="{{ imageUrl }}" width="64" height="64"
+                           stretch="aspectFill" borderRadius="6" />
+                    <Label col="1" row="0" class="hero-name" text="{{ name }}" fontSize="17" margin="0 12" />
+                    <Label col="1" row="1" class="hero-sub" text="{{ description }}" textWrap="true" fontSize="12" margin="0 12" />
                     <Label col="2" rowSpan="2" text="{{ favorite ? '♥' : '♡' }}"
-                           color="{{ favorite ? '#e0245e' : '#999' }}" fontSize="28"
+                           class="{{ favorite ? 'heart' : 'heart-off' }}" fontSize="30"
                            verticalAlignment="center" padding="8"
                            tap="toggleFavorite" />
                 </GridLayout>

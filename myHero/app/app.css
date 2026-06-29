@@ -1,6 +1,109 @@
-﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/core.css';
 @import '@nativescript/theme/css/default.css';
 
+/* ===== Marvel comic-book theme ===== */
+/* red #ED1D24, ink #15151A, panel #1F1F27, off-white #F5F5F5 */
+
+Frame {
+  background-color: #15151A;
+}
+
+Page {
+  background-color: #15151A;
+  color: #F5F5F5;
+}
+
+/* Kill the white cell highlight when tapping a ListView row */
+ListView {
+  background-color: #15151A;
+}
+
+ActionBar {
+  background-color: #ED1D24;
+  color: #FFFFFF;
+}
+
+.action-bar-title {
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+TabView {
+  tab-background-color: #15151A;
+  tab-text-color: #8A8A95;
+  selected-tab-text-color: #ED1D24;
+  android-selected-tab-highlight-color: #ED1D24;
+}
+
+SearchBar {
+  background-color: #1F1F27;
+  color: #F5F5F5;
+  text-field-background-color: #1F1F27;
+  text-field-hint-color: #8A8A95;
+  margin: 10 10 4 10;
+  border-radius: 8;
+}
+
+ActivityIndicator {
+  color: #ED1D24;
+}
+
+/* Comic-style panel/card */
+.card {
+  background-color: #1F1F27;
+  border-width: 2;
+  border-color: #ED1D24;
+  border-radius: 12;
+}
+
+/* Hero name as a comic headline */
+.hero-name {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.hero-sub {
+  color: #B5B5BF;
+}
+
+.section-title {
+  font-weight: 900;
+  text-transform: uppercase;
+  color: #ED1D24;
+}
+
+.bio-key {
+  font-weight: 700;
+  color: #ED1D24;
+}
+
+.bio-value {
+  color: #F5F5F5;
+}
+
+.error {
+  color: #ED1D24;
+  font-weight: 700;
+}
+
+.empty-hint {
+  color: #8A8A95;
+}
+
+/* Favorite heart */
+.heart {
+  color: #ED1D24;
+}
+.heart-off {
+  color: #5A5A66;
+}
+
 Button.-primary {
-  font-size: 18;
+  font-size: 16;
+  font-weight: 900;
+  text-transform: uppercase;
+  background-color: #ED1D24;
+  color: #FFFFFF;
+  border-radius: 8;
 }
