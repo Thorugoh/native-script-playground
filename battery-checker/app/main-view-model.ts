@@ -10,12 +10,12 @@ function batteryLevel(): number {
     return bm.getIntProperty(android.os.BatteryManager.BATTERY_PROPERTY_CAPACITY);
   }
 
-  if(isIOS) {
-    const device = UIDevice.currentDevice;
-    device.batteryMonitoringEnabled = true;
-    const level = device.batteryLevel;
-    return level < 0 ? -1 : Math.round(level * 100);
-  }
+  // if(isIOS) {
+  //   const device = UIDevice.currentDevice;
+  //   device.batteryMonitoringEnabled = true;
+  //   const level = device.batteryLevel;
+  //   return level < 0 ? -1 : Math.round(level * 100);
+  // }
 
   return -1;
 }

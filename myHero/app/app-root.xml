@@ -1,10 +1,10 @@
 <TabView xmlns="http://schemas.nativescript.org/tns.xsd" androidTabsPosition="bottom"
          selectedIndexChanged="onSelectedIndexChanged">
     <TabView.items>
-        <TabViewItem title="Search">
+        <TabViewItem title="Search" iconSource="sys://magnifyingglass">
             <Frame defaultPage="main-page" />
         </TabViewItem>
-        <TabViewItem title="Favorites">
+        <TabViewItem title="Favorites" iconSource="sys://star">
             <Frame defaultPage="favorites/favorites-page" />
         </TabViewItem>
     </TabView.items>
